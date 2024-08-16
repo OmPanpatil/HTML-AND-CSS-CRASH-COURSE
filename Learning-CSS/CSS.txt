@@ -1,0 +1,45 @@
+Style sheet --> a list of CSS rule/ rule sets.
+
+div{
+    color:red;
+    margin:20px;
+}
+
+p{
+    font-weight: bold,
+}
+
+Here, div and p are selectors; under content is declaration.
+
+Types of css:
+1. Internal use of CSS,
+
+<style>
+     h1{
+        color:red;
+     }
+     p{
+        color:slategray;
+     }
+</style>  
+
+2. External CSS:
+
+by linking to css file in head of HTML5.
+
+3.Inline CSS:
+by using class in a tag.
+
+
+Code to write before starting every CSS files:
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
