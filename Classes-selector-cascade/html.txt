@@ -1,0 +1,49 @@
+HTML5 SEMANTICS -->
+
+Main,Header, Nav, Section, article, aside, footer
+
+Main:
+    for the main content of the webpage, unique to that page
+
+Header:
+    one or more heading elements (<h1> - <h6>)
+    logo or icon
+    authorship information
+
+Nav:
+    The <nav> element defines a set of navigation links.
+
+Section:
+    Chapters
+    Introduction
+    News items
+    Contact information
+    A web page could normally be split into sections for introduction, content, and contact information.
+
+article:
+    Examples of where the <article> element can be used:
+
+    Forum posts
+    Blog posts
+    User comments
+    Product cards
+    Newspaper articles
+
+aside:
+    The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+
+    The <aside> content should be indirectly related to the surrounding content.
+
+footer:
+    The <footer> element defines a footer for a document or section.
+
+    A <footer> element typically contains:
+
+    authorship information
+    copyright information
+    contact information
+    sitemap
+    back to top links
+    related documents
+    You can have several <footer> elements in one document.    
+

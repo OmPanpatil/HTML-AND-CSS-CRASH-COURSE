@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+p.success{
+    color: crimson;
+}
+
+div.passionate{
+    color: lightseagreen;
+}
+
+a[href="www.webcraftedminds.com"]{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div{
+    color: lightcoral;
+    border: 1px solid black;
+    margin: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+p{
+    border: inherit;
+    margin: inherit;
+}

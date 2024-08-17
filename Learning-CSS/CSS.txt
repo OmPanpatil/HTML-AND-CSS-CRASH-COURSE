@@ -43,3 +43,11 @@ html,body{
     width:100%;
     height:100%;
 }
+
+Note: The block level element can have margin all around the element. But, inline element can only have margin to the left and right only.
+padding can be add around in both cases.
+
+class ==> . ; div ==> #
+
+Note: 
+    HTML5 can inherit the properties of the element when applied to the parent ==. Inheritance
