@@ -4,3 +4,5 @@ Form mae inputs aate hai, id name should not be repeat again and class name can 
 You can follow this repo and follow along to do practice of WebDev.
 The more you do hardwork the more you become lucky!
 
+<video src="./Preview-Projects/Proj1-MarioClub.mp4" loop muted alt="Mario Club Project-1">
+

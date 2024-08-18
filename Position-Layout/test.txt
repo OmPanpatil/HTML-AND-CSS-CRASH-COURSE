@@ -1,0 +1,2 @@
+types:
+    Static, relative, fixed, absolute, sticky
