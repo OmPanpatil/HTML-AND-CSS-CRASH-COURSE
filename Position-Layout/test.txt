@@ -1,2 +1,5 @@
 types:
     Static, relative, fixed, absolute, sticky
+
+
+Kahi baar tag ko dekh kar ye nahi bataya ja sakta ki aap exactly kya banane walle ho, is cheej ko kaafi had tak solve karta hai HTML5
