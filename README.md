@@ -5,6 +5,6 @@ You can follow this repo and follow along to do practice of WebDev.
 The more you do hardwork the more you become lucky!
 
 <div>
-  <img autoplay loop muted src="./Preview-Projects/Proj1-MarioClub.mp4">
-  <img width="720" height="auto">
+  <video autoplay loop muted src="./Preview-Projects/Proj1-MarioClub.mp4">
+  <video width="1700" height="auto">
 </div>
