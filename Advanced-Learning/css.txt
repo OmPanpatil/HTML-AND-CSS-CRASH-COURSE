@@ -1,0 +1,38 @@
+#basics-->
+    1.what is css
+    2.css rule structure
+    3.how to use css in html?
+    4.types of selectors
+    5.comments in css
+    6.colors and background properties
+    7.css units and dimensions
+    8. fonts and text properties
+    9.css box models
+    10.border,padding and margin
+    11.CSS Display, Floats, etc
+    12.CSS positions and Z-index
+    13.CSS Overflow
+
+#Advanced -->
+    1.CSS3 Gradient,
+    2.CSS3 Shadows and filters
+    3.Css combinators
+    4.CSS pseudo class and elements
+    5.CSS3 Column Layout
+    6.CSS3 Flexbox and Grad
+    7.CSS3 Animations, Transform transitions and perspective
+    8. CSS3 Suffixes and prefixes
+    9. CSS3 media and quant queries
+    10. CSS3 BEM, SMACSS, etc
+    11. CSS3 variables and nesting, etc
+    12. New CSS3 Features and bonuses
+
+
+#Pro Level -->
+
+    50+ interview questions
+    30+ tips and tricks
+    complete notes + codes
+    100+ animated slides
+    10+ Animated projects
+    projects - Complete multipage 
