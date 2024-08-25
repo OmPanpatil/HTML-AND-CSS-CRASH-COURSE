@@ -1,6 +1,12 @@
 #basics-->
     1.what is css
-    2.css rule structure
+        -->It is a stylesheet language that use to describe the look and presentation of a document written in HTML or xml. It defines how elements are displayed on a web page.
+        --> Maintenance and creators of CSS: 
+            =>It was created by a group of individuals known as the World Wide Web Consortium(W3C)
+            =>Primary contributor includes Hakon Wium Lie & Bert  Bos.
+            
+    2.css rule structure?
+        -->
     3.how to use css in html?
     4.types of selectors
     5.comments in css
@@ -35,4 +41,6 @@
     complete notes + codes
     100+ animated slides
     10+ Animated projects
-    projects - Complete multipage 
+    projects - Complete multipage website
+    CSS performance and optimization
+    SEO+Testing+Live Hosting(Free & paid)
