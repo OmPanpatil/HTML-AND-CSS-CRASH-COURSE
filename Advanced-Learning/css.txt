@@ -4,7 +4,7 @@
         --> Maintenance and creators of CSS: 
             =>It was created by a group of individuals known as the World Wide Web Consortium(W3C)
             =>Primary contributor includes Hakon Wium Lie & Bert  Bos.
-            =>
+            =>And 
 
     2.css rule structure?
         -->
