@@ -4,12 +4,60 @@
         --> Maintenance and creators of CSS: 
             =>It was created by a group of individuals known as the World Wide Web Consortium(W3C)
             =>Primary contributor includes Hakon Wium Lie & Bert  Bos.
-            =>And 
+            =>Css
 
     2.css rule structure?
-        -->
+        --> CSS rule consist of selectors and declaration blocks
+        -->Declarations are used to define the style properties of the selected elements.
+        --> Each declarations consist of property and value.
+            #Syntax:
+                selector{
+                    property:value; (declaration)
+                    /*More properties and values.*/
+                }
+                    ex: 
+                        h1{
+                            color:red;
+                            font-size:25px;
+                        }
     3.how to use css in html?
-    4.types of selectors
+        ---> There are three ways:
+            (a)Inline Css: We use style attribute.
+            (b)Internal CSS:Style defined within the <Style> tag within the head.
+            (c) External CSS: Styles stored in seperate .CSS files using the link elements
+    4.types of selectors?
+        (1)CSS Tag/Element selector=>
+            *Syntax:
+
+                h1{
+                    color:red;
+                    font-size:25px;
+                }
+
+            *Explanation:
+                Here, h1 is the selector,
+                color and font-size are property with their values.
+
+        (2)Class selector:
+            *Syntax:
+
+                <section>
+                    <button class="btn"> //class name ="btn" is a selector we have to style it 
+                        Star this Repository
+                    </button>
+                </section>
+
+//NOTE: (class is equal to dot and div is equal to #. And the combination of the property and values is known as declaration.)
+
+                .btn{
+                    color:blue;
+                    font-weight:bold;
+                }
+
+                Explanation: Class name as btn then class-selector as btn have the property and value assigned to
+                             desirable output. And the combination of the property and values is known as declaration.
+        (3)ID Selector:
+            
     5.comments in css
     6.colors and background properties
     7.css units and dimensions
