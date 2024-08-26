@@ -47,7 +47,7 @@
                     </button>
                 </section>
 
-//NOTE: (class is equal to dot and div is equal to #. And the combination of the property and values is known as declaration.)
+//NOTE: (class is equal to dot and ID is equal to #. And the combination of the property and values is known as declaration.)
 
                 .btn{
                     color:blue;
@@ -57,9 +57,35 @@
                 Explanation: Class name as btn then class-selector as btn have the property and value assigned to
                              desirable output. And the combination of the property and values is known as declaration.
         (3)ID Selector:
+
+            *syntax:
+                <section>
+                    <button id="btn">
+                        Star the Repository
+                    </button>
+                </section>
+
+                #btn{
+                    color:blue;
+                    font-weight:bold;
+                }
+        (4)Pseudo-class Selector:
+
+            *syntax:
+                a:hover{
+                    color:blue;
+                    font-weight: bold;
+                }
             
-    5.comments in css
-    6.colors and background properties
+    5.comments in css:
+        
+        /*This is a comment*/
+
+    6.colors and background properties:
+        ^Colors:
+            -It is written in hexadecimal codes
+            -RGB [rgb(255,255,255)=>White]
+            
     7.css units and dimensions
     8. fonts and text properties
     9.css box models

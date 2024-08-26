@@ -12,3 +12,16 @@ html,body{
 p{
     color: blue;
 }
+
+.para{
+    background-color: bisque;
+}
+
+#btx{
+    background-color: black;
+}
+
+#btx:hover{
+    background-color: white;
+    content: inherit;
+}
