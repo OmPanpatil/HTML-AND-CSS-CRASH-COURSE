@@ -12,6 +12,7 @@ html,body{
 p{
     color: blue;
     font-size: bold;
+    font: 400;
 }
 
 .para{
