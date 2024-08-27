@@ -118,7 +118,7 @@ NOTE: U can use Hunt colour website for colour pallet.
     3.Css combinators
     4.CSS pseudo class and elements
     5.CSS3 Column Layout
-    6.CSS3 Flexbox and Grad
+    6.CSS3 Flexbox and Grid
     7.CSS3 Animations, Transform transitions and perspective
     8. CSS3 Suffixes and prefixes
     9. CSS3 media and quant queries
