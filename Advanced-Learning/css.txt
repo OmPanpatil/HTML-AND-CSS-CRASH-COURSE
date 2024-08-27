@@ -85,8 +85,25 @@
         ^Colors:
             -It is written in hexadecimal codes
             -RGB [rgb(255,255,255)=>White #ff 00 00]
-            [Red=> 255,0,0(ff 00 00), Green=> 0,255,0(00 ff 00),Blue=>]
-            -
+            [Red=> 255,0,0(ff 00 00), Green=> 0,255,0(00 ff 00),Blue=> 0,0,255 (00 00 ff)]
+            -red and blue gives magenta(255,0,255[#ff 00 ff]), green and blue gives Cyan(0,255,255[#00 ff ff]), Red and Green gives Yellow(255,255,0[#ff ff 00]).
+            -you can also name colours
+            =>RGB and RGBA
+            -->RGB: composition of red, green and blue colour in hexadecimal form.
+            -->RGBA: It is with transperancy as alpha from 0 to 1
+                     Also can be used for transparency.
+            @:Hexadecimal colors: You can specify colors using hexadecimal values.
+NOTE: U can use Hunt colour website for colour pallet.
+
+/** -----------------------------------------------------------------------------------------------  **/
+            More in Hexadecimal colors: 
+
+                HSL: HUE(A pu, SATURATION(A pure color with just white added[from dark to white]), Lightness
+                HUE: re colour[example: red colour])
+                HSLA: HUE, SATURATION, LIGHTNESS,ALPHA
+
+
+
     7.css units and dimensions
     8. fonts and text properties
     9.css box models
@@ -120,3 +137,17 @@
     projects - Complete multipage website
     CSS performance and optimization
     SEO+Testing+Live Hosting(Free & paid)
+
+
+
+
+/** ________________________________________________________ **/
+
+INTERVIEW QUESTIONS:
+    1. What is the difference between rgb() and rgba() color notations in css
+
+    2. How can you make the text color of an element fully transparent using CSS? provide an element?
+
+    3. How can you set the text colour of an element to match the current color of another css within the same element?
+
+    
