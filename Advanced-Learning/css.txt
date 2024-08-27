@@ -86,6 +86,7 @@
             -It is written in hexadecimal codes
             -RGB [rgb(255,255,255)=>White #ff 00 00]
             [Red=> 255,0,0(ff 00 00), Green=> 0,255,0(00 ff 00),Blue=>]
+            -
     7.css units and dimensions
     8. fonts and text properties
     9.css box models
