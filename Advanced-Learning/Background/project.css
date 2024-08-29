@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+
+    url("https://i.seadn.io/gcs/files/a2926d72ec91089283475ee9d801af8b.png?auto=format&dpr=1&w=384");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+
+.section-2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+
+    url("https://www.21kschool.com/us/wp-content/uploads/sites/37/2023/07/Coding.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.section-3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUdn6TmiZu1HNJdKVPq2HMQo_lPNWJhUT9g&s");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.section-4{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),
+
+    url("https://media.licdn.com/dms/image/C5112AQGrOXdKzGW1DQ/article-cover_image-shrink_600_2000/0/1522214326874?e=2147483647&v=beta&t=qWQO-NPxTH4hS_wB1rg25YB6WhpiJLnwuVeiW1d4e2M");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+
+h2{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+p{
+    font-size: 20px;
+    color: #fff;
+}

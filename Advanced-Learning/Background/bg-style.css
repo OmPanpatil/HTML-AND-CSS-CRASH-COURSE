@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Background Property in CSS3 */
+
+/* Background Blend Mode: Applies blending mode to the background image and colour.  */
+/*Values: Various blending mode keywords like multiply, screen, overlay.
+Example: background-blend-mode: multiply  */
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    background-image: url('https://img.freepik.com/free-photo/buddha-statue-with-nature-landscape_23-2150774073.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+}
+
+/*  */

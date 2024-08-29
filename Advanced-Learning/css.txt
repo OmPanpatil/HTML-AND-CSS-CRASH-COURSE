@@ -98,9 +98,30 @@ NOTE: U can use Hunt colour website for colour pallet.
 /** -----------------------------------------------------------------------------------------------  **/
             More in Hexadecimal colors: 
 
-                HSL: HUE(A pu, SATURATION(A pure color with just white added[from dark to white]), Lightness
-                HUE: re colour[example: red colour])
-                HSLA: HUE, SATURATION, LIGHTNESS,ALPHA
+                HUE: A pure colour (example:red)
+                Tint: A pure colour with just with added(from dark it goes from right to left and at a point it becomes purest white.)
+                Shade: A pure colour with just black added (From top to bottom of right adding some layer of shades of dark it gets black purest colour.)
+                Tone: A pure colour with just grey added
+
+
+        Background in CSS:
+            % Background Properties:
+
+                01. Background color
+
+                02. Background Image
+
+                03. Background repeat
+
+                04. Background positions
+
+                05. Background size
+
+                06. Background Attachments
+
+
+
+
 
 
 
@@ -149,5 +170,13 @@ INTERVIEW QUESTIONS:
     2. How can you make the text color of an element fully transparent using CSS? provide an element?
 
     3. How can you set the text colour of an element to match the current color of another css within the same element?
+
+    4. How can you set a background image for an element using CSS?
+
+    5. How can you apply multiple background images to a single element?
+
+    6. What is the property that is used for controlling image-scroll?
+
+    7. How can you make a background image cover the entire element without distortion?
 
     
