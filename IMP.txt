@@ -1,1 +1,15 @@
+Kahi baar tag ko dekhar yeh nahi bataya ja sakhta ki aapp exactly kya banane wallae ho,
+iss chizz ko kaafi had tak HTML5 semantics solve karletta hai.
 
+HTML5 semantics tags apnae aap mae kuch nahi kartae but it helps in google seo and project distribution and management. An overall information on which tag represent which operations.
+
+HTML5 Semantics Tags:
+    1. Header: Pehla section of Website can be called as Header.
+    2. Nav : Navigation bar
+    3. Main : Full websites
+    4. Section : Full page of websites
+    5. Article: Website ke andar jou bhi subh element honge unhe articles maen daal sakhte hai.
+    6. Aside: content which is fixed at the side of the webpages.
+    7. Footer: To make footer of the page
+    8. Audio: Audio support
+    9. Video: Video support
