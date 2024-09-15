@@ -56,21 +56,55 @@ Note:
 Important first WIdth and Height
 1. color and Background color
     (color = Text color, Background color = Background's color.)
-2. Font-Family,
-3. FOnt-Size
-4. Line height
-5. Text align
-6. padding
-7. margin
-8. Border 
-9. Display
+2. Font-Family: to decorate, transform
+3. FOnt-Size: use vw for making responsive web
+4. Line height: To increase or overlap the line height between the text up and down.
+5. Text align: one is left, right(it will start from right side), Center
+                Note: justify: no space will be left
+6. padding: In padding if we have parent then we will have to say to parent to give the padding for the child element.
+                We can give it four values as 12,3,6,9 directions to get the content at desired point.
+7. margin : Out of the element creating space (Sarkhana)
+8. Border : border-size, border color, border style, border radius, 
+9. Display : It involves two main part block and inline and the third is mixture of the both inline-block.
+             Block: it can go too and fro. The block element does not let anyone by there side in left or right. in it row. We can inc/Decrease width and height.
+             Inline: It let the other element to seat at it's row i don't have any  problem. It won't allow to increase width and height.
+             Inline-block: we can increase the width and height. It can allow to pass or have the element at the left and right side. 
+
+             
 10. Position
 11. Background
 12. Flex
 13. Pseudo - Elements
 14. Pseudo - Classes
-15. Units - px, vw, vh, %, em, rem
-    max-width and max-height.
+15. Units---> 
+            px, vw, vh, %, em, rem
+            max-width and min-height.
+
+                1. px: 1 px is equal to one pixel on screen(u can see it in high magnified view of any image u will see a square it is pixel. DPI[depth per inch ie.e how much depth is present per inch]it shows how the quality of the color will be.)
+                    my: width: 1536px; height: 695px (of chrome) + 73px (full sc.)= 768px ;
+
+                    Note: 1. Make less use of pixels because it changes as per the screen
+                          2. % hamesha parent sae value letta hai
+                          3. Vw and vh hamesha Screen sae value lettae hai (my width is vw is 100 vw and vh is 100 vh as it will be 100 for every screen as the limit because it's the portion from the screen view as 100 percent.)
+                          4. em and rem.
+                             
+                            --> em: em depend karta hai us element ke font size par , aur yeh agar parent ko dete hai to children par bhi apply hota hai.
+                                 matlab kuch aisa: 
+                                                   Consider kariye ek element hai jiske pass 16px font size hai to 1em ki value 16px hogi aur agar font-size change kiya toh uske response mein em ki value bhi badegi.
+
+
+                          --> rem: 
+
+                                 =>   it always depend upon the size of the HTMl 
+                                   => also known as root element.
+
+                          5. 
+
+                2. %: Jitna total hai usska hissa
+                3. vw:
+                4. vh:
+                5. em:
+                6. rem:
 
 . Animation
 . Media Queries
