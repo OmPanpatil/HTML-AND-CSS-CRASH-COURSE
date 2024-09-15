@@ -51,3 +51,26 @@ class ==> . ; div ==> #
 
 Note: 
     HTML5 can inherit the properties of the element when applied to the parent ==. Inheritance
+
+
+Important first WIdth and Height
+1. color and Background color
+    (color = Text color, Background color = Background's color.)
+2. Font-Family,
+3. FOnt-Size
+4. Line height
+5. Text align
+6. padding
+7. margin
+8. Border 
+9. Display
+10. Position
+11. Background
+12. Flex
+13. Pseudo - Elements
+14. Pseudo - Classes
+15. Units - px, vw, vh, %, em, rem
+    max-width and max-height.
+
+. Animation
+. Media Queries
