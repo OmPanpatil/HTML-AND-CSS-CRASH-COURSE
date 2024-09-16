@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    display: inline-block;
+    padding: 2px;
+    margin: 3px;
+    width: 32vw;
+    height: 4vh;
+}
+
+#car1{
+    width: 20px;
+    height: 100px;
+    background-color: black;
+}
+
+#car2{
+    width: 50px;
+    height: 150px;
+    background-color: salmon;
+    position: absolute;
+
+}
+
+#car3{
+    width: 160px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+} 
+
+#car4{
+    width: 220px;
+    height: 250px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+} 
+
+#box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    padding: 2vw;
+    position: relative;
+}
+
+#golla{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    left: 70%;
+    bottom: 70%;
+}
+
+#bg{
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(to right, red, blue);
+    /* background: url(https://gifdb.com/images/thumbnail/m58ey9f42fib94wn.gif); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    position: relative;
+    padding: 5px;
+    margin: 25px;
+    /* margin-bottom: 3.5vw  */
+    /* background-color: antiquewhite; */
+}
+/* 
+#bg-content{
+    width: 18vw;
+    height: 18vh;
+    color: aqua;
+    position: absolute;
+    background: url();
+} */
+
+#play{
+    width: 28vw;
+    height: 24vw;
+    position: absolute;
+    background: url(https://gifdb.com/images/thumbnail/m58ey9f42fib94wn.gif);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    top: 10%;
+    left: 20%;
+}
+
+#boxes{
+    width: 45vw;
+    height: 45vh;
+    background-color: red;
+    padding: 1vw;
+    margin: 3vw 3vw 3vw 3vw;
+    display: flex;
+    /* justify content at the main axis and align-items at the y-axis */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#one{
+    width: 5vw;
+    height: 7.5vh;
+    background-color: orange;
+
+
+}
+
+#two{
+    width: 5vw;
+    height: 7.5vh;
+    background-color: green;
+
+}
+
+#three{
+    width: 5vw;
+    height: 7.5vh;
+    background-color: yellow;
+
+}
+
+/* #four{
+    width: 30vw;
+    height: 30vh;
+    background-color: red;
+    padding: 4vw;
+    margin: 3vw 3vw 3vw 3vw;
+
+} */
+
+p{
+    position: relative;  
+    width: auto;
+    
+}
+
+
+/* 
+p::before{
+    content: '👍';
+}
+
+p::after{
+    content:'✌️';
+} */
+
+
+p::before{
+    content: '';
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    /* left: 0; */
+}
+
+p::after{
+    content: '';
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+}
+
+h2{
+    width: fit-content;
+    margin: 4vw;
+    color: lightcoral;
+}
+
+h2::first-line{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+}
+
+h2::first-letter{
+    font-size: 4vw;
+}
+
+h2::selection{
+    color: lightskyblue;
+}
+
+h1{
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightgreen;
+}
+
+h1:hover{
+    background-color: bisque;
+}
+
+button:active{
+    background-color: bisque;
+}
+
+input:focus{
+    background-color: lightblue;
+    /* zoom: 1; */
+}
+
