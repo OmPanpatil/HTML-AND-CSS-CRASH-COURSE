@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(244, 240, 240);
+    
+}
+
+nav{
+    height: 80px;
+    width: 100%; */
+    /* background-color: aqua; */
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 3vw;
+}
+
+nav h4{
+    font-size: 19px;
+    font-weight: 540;
+}
+
+nav i{
+    background-color: black;
+    color: beige;
+    font-size: 19px;
+    padding: 0.4vw;
+    border-radius: 50%;
+    font-weight: 540;
+} */
+
+/* header{ */
+    /* height: 40%; */
+    /* width: 100%; */
+    /* background-color: red; */
+    /* padding: 2vw 4vw; */
+    /* line-height: 4.5vw; */
+    /* display: flex; */
+    /* justi */
+/* } */
+
+/* header h1{ */
+    /* font-size: 4vw;
+    font-weight: 495;
+    line-height: 4.3vw;
+} */
+
+/* header p{
+    height: 200px;
+    background-color: red;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 1.2vw;
+    font-weight: 470;
+    line-height: 1.5vw;
+} */ 

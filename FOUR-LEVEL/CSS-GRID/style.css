@@ -41,7 +41,7 @@ html,body{
     grid-template-columns: 200px 200px 200px 200px 200px;
     grid-template-rows: 200px 200px 200px 200px 200px;
     align-content: space-evenly;
-    justify-content: space-between;
+    justify-content: space-between  ;
 }
 
 .elems{
@@ -49,4 +49,26 @@ html,body{
     height: 100px;
     background-color: salmon;
     border: 1px solid black;
+}
+
+nav{
+    font-family: 'Gilroy';
+    /* background-color: antiquewhite; */
+    display: grid;
+    grid-template-columns: 50% 10% 10% 10% 10% 10%;
+    grid-template-rows: 50px;
+    align-items: center;
+    justify-items: center;
+    /* align-content: center; */
+    /* justify-content: center; */
+    padding: 2vw;
+}
+
+nav h1::first-letter{
+    font-size: larger;
+    /* justify-self: save; */
+}
+
+nav h1{
+    justify-self: start;
 }

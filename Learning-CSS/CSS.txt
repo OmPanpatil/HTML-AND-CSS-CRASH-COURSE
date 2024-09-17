@@ -165,5 +165,7 @@ Important first WIdth and Height
 
 
 Note: CSS Grid is better than CSS Flex.
+Note: If you want to change inside the block of grid: align-items and justify-items
+      For the full box outside the block of grid: align-content and justify-content
 
 
