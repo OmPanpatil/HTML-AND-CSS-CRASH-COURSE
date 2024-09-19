@@ -162,6 +162,7 @@ Important first WIdth and Height
                 - Properties: grid-template-coloumn, grid-template-row.
                 - In Grid, we use Justify-items for main-axis and align-items for y-axis.
                 - To move anywhere in the screen we use justify-content and align-content.
+                - Grid-coloumn-start, grid-coloumn-end, grid-row-start, grid-row-end or grid-coloumn:--/--, grid-row:--/--
 
 
 Note: CSS Grid is better than CSS Flex.
