@@ -13,3 +13,178 @@ HTML5 Semantics Tags:
     7. Footer: To make footer of the page
     8. Audio: Audio support
     9. Video: Video support
+
+
+
+Style sheet --> a list of CSS rule/ rule sets.
+Shortcuts:  .elem#elem$*3
+
+div{
+    color:red;
+    margin:20px;
+}
+
+p{
+    font-weight: bold,
+}
+
+Here, div and p are selectors; under content is declaration.
+
+Types of css:
+1. Internal use of CSS,
+
+<style>
+     h1{
+        color:red;
+     }
+     p{
+        color:slategray;
+     }
+</style>  
+
+2. External CSS:
+
+by linking to css file in head of HTML5.
+
+3.Inline CSS:
+by using class in a tag.
+
+
+Code to write before starting every CSS files:
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+Note: The block level element can have margin all around the element. But, inline element can only have margin to the left and right only.
+padding can be add around in both cases.
+
+class ==> . ; div ==> #
+
+Note: 
+    HTML5 can inherit the properties of the element when applied to the parent ==. Inheritance
+
+
+Important first WIdth and Height
+1. color and Background color
+    (color = Text color, Background color = Background's color.)
+
+        Color Science:
+            color names: red,green,blue
+            Hexadecimal Notation: #
+            RGB Functional Notation: RGB
+            RGBA Functional Notation: RGBA
+
+2. Font-Family: to decorate, transform
+3. FOnt-Size: use vw for making responsive web
+4. Line height: To increase or overlap the line height between the text up and down.
+5. Text align: one is left, right(it will start from right side), Center
+                Note: justify: no space will be left
+6. padding: In padding if we have parent then we will have to say to parent to give the padding for the child element.
+                We can give it four values as 12,3,6,9 directions to get the content at desired point.
+7. margin : Out of the element creating space (Sarkhana)
+8. Border : border-size, border color, border style, border radius, 
+9. Display : It involves two main part block and inline and the third is mixture of the both inline-block.
+             Block: it can go too and fro. The block element does not let anyone by there side in left or right. in it row. We can inc/Decrease width and height.
+             Inline: It let the other element to seat at it's row i don't have any  problem. It won't allow to increase width and height.
+             Inline-block: we can increase the width and height. It can allow to pass or have the element at the left and right side. 
+
+             
+10. Position : absolute, relative
+
+                1. Absolute (Hint:beta hadsae bahar jarra hai issae kessae handle karre): Whenever we make any element position absolute that element elevates in their region as the website we see is view by top-view. And it can hide other element benath of it due to if it's levetation. More important it will levetates as per the level from first to infinite.
+                2. Relative (Hint: Parents ko bata do bettae ko apnae track sae bahar jannae nahi denge): 
+
+
+11. Background: We can pass a Url(),colour,bg color
+
+                     background-color: linear-gradient(to right, color1, color2);
+
+
+12. Flex: 1. it is an upgraded version if incase u don't want to use displays block,inline and inline-block.
+          (Kisiko agal bagal lanna hai)
+          2. It can be only apply on Parent for the flexbox.
+          3. Because of this it gets involved two access activate.
+          4. Two axis: X and Y axis
+                X --> X is a main axis (Row)[left to right]  --->Width (Justify-Content)
+                Y --> Y is a cross axis. (Coloumn)[top to bottom]  --> Height (Align-Items)
+
+          5. To work in X-axis we use Justify-Content 
+          6. To work in Y-axis we use Align-items
+          7. Display flex is a single- directional properties.
+          8. It can only control one axis at one time main- axis(X) or cross-axis(Y)
+
+
+13. Pseudo - Elements: 
+                        -The Pseudo Elements(imp):
+                            ::before,
+                            ::after,
+                            ::first-line
+                            ::first-letter
+                            ::slection
+                        
+
+14. Pseudo - Classes:
+                        - The Pseudo Classes(imp):
+                            ::hover
+                            ::active
+                            ::focus
+                            ::nth-child(n)
+
+                            Har Element ke pass ek possibility hotti haiki wo element chahe toh inactive Do after and before naam ki properties ko activate kar skta hai.
+                            Content is very important to write in before and after then only it will initialize.
+15. Units---> 
+            px, vw, vh, %, em, rem
+            max-width and min-height.
+
+                1. px: 1 px is equal to one pixel on screen(u can see it in high magnified view of any image u will see a square it is pixel. DPI[depth per inch ie.e how much depth is present per inch]it shows how the quality of the color will be.)
+                    my: width: 1536px; height: 695px (of chrome) + 73px (full sc.)= 768px ;
+
+                    Note: 1. Make less use of pixels because it changes as per the screen
+                          2. % hamesha parent sae value letta hai
+                          3. Vw and vh hamesha Screen sae value lettae hai (my width is vw is 100 vw and vh is 100 vh as it will be 100 for every screen as the limit because it's the portion from the screen view as 100 percent.)
+                          4. em and rem.
+                             
+                            --> em: em depend karta hai us element ke font size par , aur yeh agar parent ko dete hai to children par bhi apply hota hai.
+                                 matlab kuch aisa: 
+                                                   Consider kariye ek element hai jiske pass 16px font size hai to 1em ki value 16px hogi aur agar font-size change kiya toh uske response mein em ki value bhi badegi.
+
+
+                          --> rem: 
+
+                                 =>   it always depend upon the size of the HTMl 
+                                   => also known as root element.
+
+                          5. 
+
+                2. %: Jitna total hai usska hissa
+                3. vw: Viewport width is 100 because it takes screen values
+                4. vh: Viewport height is 100 because it takes screen values.
+                5. em: em is a unit of measurement which indicates size relative to the size of the font and changes as per the font-size of that current element.
+                6. rem:Root element always depend upon the size of HTML 
+
+. Animation
+. Media Queries
+
+18. CSS Grid:
+                - It's main use is to make layout
+                - It is a two dimensional property
+                - It gets the overall control overall main and cross axis.
+                - Properties: grid-template-coloumn, grid-template-row.
+                - In Grid, we use Justify-items for main-axis and align-items for y-axis.
+                - To move anywhere in the screen we use justify-content and align-content.
+                - Grid-coloumn-start, grid-coloumn-end, grid-row-start, grid-row-end or grid-coloumn:--/--, grid-row:--/--
+
+
+Note: CSS Grid is better than CSS Flex.
+Note: If you want to change inside the block of grid: align-items and justify-items
+      For the full box outside the block of grid: align-content and justify-content
+
+      Background: url(position can be adjust as x,y axis)
