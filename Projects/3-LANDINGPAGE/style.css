@@ -22,6 +22,7 @@ html,body{
     align-items: flex-end;
     padding: 0px 100px;
     padding-top: 90px;
+    gap: 74px;
 }
 
 #left{
@@ -46,7 +47,7 @@ html,body{
 #bottom-left{
     /* height: 40%; */
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 #colors{
@@ -96,17 +97,73 @@ html,body{
 }
 
 #right{
-    width: 39%;
+    width: 35%;
     height: 90%;
-    background-color: blue;
+    /* background-color: blue; */
     position: relative;
+    /* padding: 10px; */
 }
 
 #right-top{
     height: 60px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 15px;
+}
+
+#right-top h4{
+    font-size: 20px;
+    /* font-family: 'worksans'; */
+    font-weight: 500;
+}
+
+#right-top h5{
+    font-size: 16px;
+}
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+    /* column-rule: #444; */
+    /* image-orientation: calc(-13%, 35%); */
+}
+
+#black-golla{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: -13%;
+    top: 29%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#black-golla h5{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#rotated{
+    position: absolute;
+    left: -10%;
+    /* right: 0; */
+    bottom: 0%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 26px;
+    font-weight: 500;
 }

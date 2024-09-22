@@ -189,4 +189,6 @@ Note: If you want to change inside the block of grid: align-items and justify-it
 
       Background: url(position can be adjust as x,y axis)
 
-      flex-direction: It is in the row format always as we give display:flex, as we give display:column the main-axis(x) and cross-axis(y) gets shift from y to x and x to y axis. 
+      flex-direction: It is in the row format always as we give display:flex, as we give display:column the main-axis(x) and cross-axis(y) gets shift from y to x and x to y axis.
+
+      Transform-Origin: [default value is 50%,50%] 
