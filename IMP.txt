@@ -192,3 +192,10 @@ Note: If you want to change inside the block of grid: align-items and justify-it
       flex-direction: It is in the row format always as we give display:flex, as we give display:column the main-axis(x) and cross-axis(y) gets shift from y to x and x to y axis.
 
       Transform-Origin: [default value is 50%,50%] 
+
+      Calc() helps to manage the size of the content on the screen that we want to fit in it. And it helps for arithmetic calculations in which we can also subtarct pixels from percentage i.e. 100%
+
+      Flex shrinks the div so use flex wrap for no - wrapping and flex shrink to be 0.
+
+      To manage the scroll bar over below at x and right at y-axis use overflow as per the axis.
+      We can than use of webkitscrollbar for the target axis.
