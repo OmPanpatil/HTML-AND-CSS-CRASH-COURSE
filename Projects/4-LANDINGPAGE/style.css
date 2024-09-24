@@ -104,7 +104,7 @@ html,body{
 .elem{
     flex-shrink: 0;
     height: 100%;
-    width: 50%;
+    width: 59%;
     /* background-color: red; */
     display: flex;
     align-items: center;
@@ -116,7 +116,28 @@ html,body{
     font-weight: 50;
 }
 
-#img-content{
-    height: 60%;
+#image-content{
+    height: 100%;
     width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    overflow-x: auto;
+    /* overflow-x: inherit; */
+    /* overflow-clip-margin: ; */
+    /* overflow-block: clip; */
+}
+
+#image-content::-webkit-scrollbar{
+    display: none;
+}
+
+#image-content img{
+    width: 68%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 10%;
+    /* -o-object-position: ; */
+    flex-shrink: 0;  
+    /* background-image: ;   */
+    background-repeat: no-repeat;
 }
