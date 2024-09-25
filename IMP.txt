@@ -199,3 +199,24 @@ Note: If you want to change inside the block of grid: align-items and justify-it
 
       To manage the scroll bar over below at x and right at y-axis use overflow as per the axis.
       We can than use of webkitscrollbar for the target axis.
+
+      * Responsive Website using HTML and CSS *
+
+        --> Understanding Units : 
+            
+            - px
+            - %
+            - vw, vh
+            - vmax, vmin
+            - em, rem => 1 rem = 16px
+
+        --> layout of websites:
+
+            - Absolute vs Flex
+
+        --> Flexbox:
+
+            - Display Flex
+            - aligning items in x and y-axis
+            - flex-direction
+            - flex-wrap

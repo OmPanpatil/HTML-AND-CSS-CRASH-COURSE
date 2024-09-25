@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Pixels does not change it size */
+
+/* #parent{
+    height: 500px;
+    width: 500px;
+    background-color: cyan;
+}
+
+#child{
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+} */
+
+
+/* Percentage(%) allows the parent and child content to be in controll */
+
+/* #parent{
+    width: 500px;
+    height: 500px;
+    background-color: cyan;
+}
+
+#child{
+    width: 50%;
+    height: 50%;
+    background-color: salmon;
+} */
+
+/* vw => Viewport width it can adjust as per the screen and also vh can adjust according to the screen height both plays important role in responsiveness*/
+
+#parent{
+    height: 40vw;
+    width: 40vw;
+    background-color: cyan;
+}
+
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: salmon;
+}
+
+h1{
+    font-size: 10vw;
+}
+
+/* em: if you want to change the size of the contents inside it u can use em(empherical measurement) to parent */
+
+#Text{
+    background-color: rosybrown;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+
+
+
