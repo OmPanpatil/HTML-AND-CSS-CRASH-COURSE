@@ -75,6 +75,40 @@ h4{
     font-size: 30px;
 }
 
+#tree{
+    height: 100%;
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.branch{
+    height: 12vh;
+    width: 6vw;
+    background-color: crimson;
+    border: 2px solid white;
+}
+
+#tree2{
+    width: 100%;
+    min-height: 100%;
+    background-color: crimson;
+}
+
+.branch2{
+    width: 60%;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.branch3{
+    width: 60%;
+    height: 100vh;
+    background-color: green;
+}
 
 
 
