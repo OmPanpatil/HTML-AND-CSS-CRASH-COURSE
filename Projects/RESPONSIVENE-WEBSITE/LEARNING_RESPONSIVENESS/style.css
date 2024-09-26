@@ -110,5 +110,20 @@ h4{
     background-color: green;
 }
 
+#box{
+    height: 30vh;
+    width: 15vw;
+    background-color: mediumseagreen;
+}
+
+@media (max-width:700px) {
+    #box{
+        height: 15vh;
+        width: 7.5vw;
+        border-radius: 50%;
+        background-color: darkmagenta;
+    }
+}
+
 
 
