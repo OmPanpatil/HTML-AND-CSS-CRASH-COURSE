@@ -220,3 +220,7 @@ Note: If you want to change inside the block of grid: align-items and justify-it
             - aligning items in x and y-axis
             - flex-direction
             - flex-wrap
+
+
+
+            Note : Form mae inputs aate hai, id name should not be repeat again and class name can be repeat again.
