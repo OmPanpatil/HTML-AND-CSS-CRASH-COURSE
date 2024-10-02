@@ -85,5 +85,51 @@ html,body{
     height: 43%;
     width: 100%;
     /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x:auto ;
+}
 
+#text-content::-webkit-scrollbar{
+    background-color: transparent;
+    height: 1.1vh;
+}
+
+#text-content::-webkit-scrollbar-thumb{
+    background-color: orangered;
+    /* height: 0.1vh; */
+}
+
+.elem{
+    height: 100%;
+    width: 55%;
+    /* background-color: red; */
+    /* display: flex; */
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem h1{
+    font-size:6vw;
+    font-weight: lighter;
+    font-weight: 300;
+    /* font-synthesis-weight: 100; */
+}
+
+#image-content{
+    height: 100%;
+    width: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    /* overflow-x: auto; */
+}
+
+#image-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 23.5%;
+    flex-shrink: 0;
 }
