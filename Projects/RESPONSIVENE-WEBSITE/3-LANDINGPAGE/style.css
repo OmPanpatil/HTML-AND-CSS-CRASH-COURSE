@@ -59,6 +59,11 @@ html,body{
     margin-left: 0.3vw;
 }
 
+#nav h5{
+    opacity: 0;
+    display: none;
+}
+
 #nav2{
     height: 10vh;
     width: 100%;
@@ -93,16 +98,18 @@ html,body{
 #text-content::-webkit-scrollbar{
     background-color: transparent;
     height: 1.1vh;
+    /* width: 1vw; */
 }
 
 #text-content::-webkit-scrollbar-thumb{
     background-color: orangered;
     /* height: 0.1vh; */
+    /* width: 0.3vw; */
 }
 
 .elem{
     height: 100%;
-    width: 55%;
+    width: 68%;
     /* background-color: red; */
     /* display: flex; */
     flex-shrink: 0;
@@ -121,9 +128,10 @@ html,body{
 #image-content{
     height: 100%;
     width: 100%;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     display: flex;
-    /* overflow-x: auto; */
+    overflow-x: auto;
+    /* padding: 0 1vw; */
 }
 
 #image-content img{
@@ -132,4 +140,170 @@ html,body{
     object-fit: cover;
     object-position: 0 23.5%;
     flex-shrink: 0;
+    padding: 0.2vw 0.3vw;
+}
+
+/* #vadym{ */
+    /* object-position: 0 100%; */
+/* } */
+
+@media (max-width:600px) {
+    
+    #main{
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    #nav{
+        height: 7.5vh;
+        /* height: 8vh; */
+        width: 100%;
+        /* background-color: rebeccapurple; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 4vw;
+    }
+    
+    #nav-part1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.05vw;
+    }
+    
+    .circle{
+        /* height: 1.4vw; */
+        height: 4.8vw;
+        /* width: 1.4vw; */
+        width: 4.8vw;
+        background-color: #333;
+        border-radius: 50%;
+        /* margin: 0.03vw; */
+    }
+    
+    #nav-part2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.9vw;
+    }
+    
+    #nav-part2 h4{
+        /* font-size: 1.15vw; */
+        font-size: 1.08vw;
+        font-weight: 500;
+        display: none;
+    }
+
+    #nav-part2 h4:nth-child(1){
+        display: initial;
+        font-size: 4.0vw;
+        margin-right: 3.6vw;
+    }
+    
+    #nav-part2 h4 span{
+        color: rgb(126, 126, 126);
+        margin-left: 0.3vw;
+    }
+
+    #nav h5{
+        opacity: 1;
+        display: initial;
+    }
+
+    #nav h5 i{
+        font-size: 5vw;
+    }
+    
+    #nav2{
+        height: 10vh;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        /* gap: 4.8vw; */
+        /* gap: 2.8vw; */
+        padding: 0vw 1.5vw;
+    }
+    
+    #nav2 h3{
+        /* font-size: 1.16vw; */
+        font-size: 2.35vw;
+        font-weight: 550;
+        text-transform: uppercase;
+    }
+    
+    #content{
+        height: calc(100% - 17.5vh);
+        /* background-color: red; */
+    }
+    
+    #text-content{
+        /* height: 43%; */
+        height: 23%;
+        width: 100%;
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x:auto ;
+    }
+    
+    #text-content::-webkit-scrollbar{
+        background-color: transparent;
+        height: 1.1vh;
+        /* width: 1vw; */
+    }
+    
+    #text-content::-webkit-scrollbar-thumb{
+        background-color: orangered;
+        /* height: 0.1vh; */
+        /* width: 0.3vw; */
+    }
+    
+    .elem{
+        height: 100%;
+        /* height: 50%; */
+        /* width: 95%; */
+        width: fit-content;
+        margin-right: 39vw;
+        /* width: 60%; */
+        /* background-color: red; */
+        /* display: flex; */
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .elem h1{
+        /* font-size:6vw; */
+        font-size: 10.8vw;
+        font-weight: lighter;
+        font-weight: 300;
+        /* font-synthesis-weight: 100; */
+    }
+    
+    #image-content{
+        /* height: 100%; */
+        height: 77%;
+        width: 100%;
+        /* background-color: rebeccapurple; */
+        display: flex;
+        overflow-x: auto;
+        /* padding: 0 1vw; */
+    }
+    
+    #image-content img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 23.5%;
+        flex-shrink: 0;
+        padding: 0.2vw 0.3vw;
+    }
+    
+
 }
