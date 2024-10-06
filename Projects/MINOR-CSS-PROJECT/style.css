@@ -391,7 +391,7 @@ html,body{
 #page3{
     height: 100%;
     width: 100%;
-    background-color: green;
+    /* background-color: green; */
 }
 
 #upperp3{
@@ -412,7 +412,7 @@ html,body{
 #centerp3{
     height: calc(100% - 10vh);
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -426,8 +426,33 @@ html,body{
 #imagegolas{
     height: 100%;
     width: 24%;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
+    /* background-image: url(https://www.linearity.io/blog/content/images/2022/10/image-32.png); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    position: relative;
 }
+
+/* #imagegolas h2{
+    font-size: 1.5vw;
+    font-weight: 400;
+    
+} */
+
+#imagegolas img{
+    position: absolute;
+    height: 50%;
+    width: 80%;
+    /* object-fit: cover; */
+    object-position: center;
+    /* object-fit: cover; */
+    background-size: cover;
+    top:30%;
+    left: 10%;
+}
+
+
 
 #rimage3{
     height: 100%;
