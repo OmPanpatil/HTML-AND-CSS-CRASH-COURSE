@@ -378,7 +378,8 @@ html,body{
 
 #text-content p{
     font-size: 1vw;
-    width: 50%;
+    /* width: 50%; */
+    width: 44.9%;
     line-height: 1.2vw;
     font-weight: 350;
     /* background-color: green; */
