@@ -434,6 +434,16 @@ html,body{
     position: relative;
 }
 
+#imagegolas i{
+    position: absolute;
+    /* height: 10vh; */
+    font-size: 5.55vw;
+    font-weight: 100;
+    top: 45.55%;
+    left: 34.55%;
+    /* background-color: red; */
+}
+
 /* #imagegolas h2{
     font-size: 1.5vw;
     font-weight: 400;
@@ -449,14 +459,130 @@ html,body{
     /* object-fit: cover; */
     background-size: cover;
     top:30%;
-    left: 10%;
+    left: 7%;
+}
+
+/* #bottomig{
+    background-color: red;
+    height: 10vh;
+    padding: 0.5vw;
+    position: absolute;
+} */
+
+#imagegolas p{
+    height: 10vh;
+    /* background-color: red; */
+    padding: 0.5vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    top: 86%;
+    position: absolute;
+    width: 100%;
 }
 
 
 
 #rimage3{
+    /* position: relative; */
     height: 100%;
     width: 50%;
     background-color: lightsalmon;
+    /* object-fit: cover; */
+    /* object-position: center; */
 }
 
+#rimage3 img{
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    object-fit: cover;
+    object-position: center;
+}
+
+#page4{
+    /* height: 90%; */
+    /* width: 90%; */
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 5vw 5vw;
+    /* position: relative; */
+}
+
+#mimage{
+    /* background-color: blue; */
+    /* height: 95vh; */
+    /* width: 95vw; */
+    height: 90%;
+    width: 80%;
+    top: 9%;
+    left: 8.5%;
+    position: relative;
+}
+
+#mimage img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 78.5%;
+    /* object-position: 0 30%; */
+}
+
+#page5{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding: 2vw 2vw; 
+}
+
+#page5>h1{
+    text-align: center;
+    font-family: monument;
+    text-transform: uppercase;
+    font-size: 2.3vw;
+    /* font-weight: 570; */
+    margin-bottom: 10.5vh;
+}
+
+.elem{
+    height: 16.8vh;
+    width: 100%;
+    /* background-color: blue; */
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+.elem:nth-last-child(1){
+    border-bottom: 2px solid black;
+}
+
+.elem h4{
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    /* background-color: red; */
+    width: 6%;
+    font-weight: 400;
+}
+
+.elem .elem-part2{
+    width: 45%;
+    /* background-color: red; */
+
+}
+
+.elem-part2 h1{
+    /* font-size: 2.55vw; */
+    font-size: 2.2vw;
+    font-weight: 400;
+}
+
+.elem-part2 h5{
+    font-size: 0.85vw;
+    font-weight: 249;
+    text-transform: uppercase;
+}
