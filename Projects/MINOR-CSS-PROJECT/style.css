@@ -549,6 +549,7 @@ html,body{
 
 .elem{
     height: 16.8vh;
+    /* height: 16vh; */
     width: 100%;
     /* background-color: blue; */
     border-top: 2px solid black;
@@ -556,11 +557,27 @@ html,body{
     align-items: center;
     justify-content: space-between;
     padding: 0 2vw;
+    position: relative;
 }
 
 .elem:nth-last-child(1){
     border-bottom: 2px solid black;
 }
+
+.elem:nth-last-child(1) img{
+    left: 50%;
+}
+
+.elem:nth-last-child(3) img{
+    left: 50%;
+}
+
+/* .elem:nth-last-child(2) img{ */
+    /* transition: none; */
+    /* left: 13%; */
+    /* background-color: red; */
+    /* left: 40%; */
+/* } */
 
 .elem h4{
     font-size: 1.1vw;
@@ -572,6 +589,7 @@ html,body{
 
 .elem .elem-part2{
     width: 45%;
+    /* width: 44%; */
     /* background-color: red; */
 
 }
@@ -586,4 +604,251 @@ html,body{
     font-size: 0.85vw;
     font-weight: 249;
     text-transform: uppercase;
+}
+
+.elem .elem-part3{
+    width: 45%;
+    /* width: 44%; */
+    /* background-color: red; */
+}
+
+.elem-part3 h1{
+    font-size: 2.2vw;
+    font-weight: 400;
+}
+
+.elem-part3 h5{
+    font-size: 0.85vw;
+    font-weight: 249;
+    text-transform: uppercase;
+}
+
+.elem .elem-part4{
+    width: 45%;
+    /* width: 44%; */
+}
+
+.elem-part4 h1{
+    font-size: 2.2vw;
+    font-weight: 400;
+}
+
+.elem-part4 h5{
+    font-size: 0.85vw;
+    font-weight: 249;
+    text-transform: uppercase;
+}
+
+.elem .elem-part5{
+    width: 45%;
+    /* width: 43.55%; */
+}
+
+.elem-part5 h1{
+    font-size: 2.2vw;
+    font-weight: 400;
+}
+
+.elem-part5 h5{
+    font-size: 0.85vw;
+    font-weight: 249;
+    text-transform: uppercase;
+}
+
+.elem h2{
+    /* background-color: red; */
+    height: 7.85vh;
+    width: 11%;
+    position: absolute;
+    left: 15%;
+    top: 52%;
+    font-size: 1.6vw;
+    /* text-transform: uppercase; */
+    font-weight: 450;
+    /* gap: 0.1vw; */
+    opacity: 0;
+}
+
+.elem h2 span{
+    position: absolute;
+    font-size: 0.9vw;
+    font-weight: 350;
+    /* top: 1%; */
+    text-transform: uppercase;
+    opacity: 0;
+}
+
+.elem:hover h2{
+    opacity: 1;
+}
+
+.elem:hover span{
+    opacity: 1;
+}
+
+/* Image circle */
+
+.elem img{
+    /* height: 13vh; */
+    /* width: 6.5vw; */
+    /* height: 100%; */
+    /* width: 100%; */
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    border-radius: 50%;
+    left: 12%;
+    opacity: 0;
+    transition: all ease 0.7s;
+    object-fit: cover;
+    object-position:center ;
+}
+
+.elem:hover img{
+    opacity: 1;
+    left: 28%;
+}
+
+/* .elem:nth-last-child(1) img{ */
+    /* right: 50%; */
+/* } */
+
+
+#page6{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5vw;
+}
+
+#left6{
+    /* background-color: blue; */
+    /* height: 40%; */
+    /* width: 20%; */
+    height: 100%;
+    width: 45%;
+    padding: 2.5vw;
+    /* position: relative; */
+}
+
+#content{
+    /* position: absolute; */
+    /* background-color: salmon; */
+    height: 100%;
+    width: 100%;
+    /* background-image: url(https://images.unsplash.com/photo-1504791635568-fa4993808e0a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+}
+
+#content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 26%;
+}
+
+#right6{
+    /* background-color: orchid; */
+    height: 100%;
+    width: 45%;
+    padding: 1vw;
+}
+
+#content2{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    /* gap: 80vh; */
+}
+
+#content2>h1{
+    text-align: start;
+    font-family: monument;
+    text-transform: uppercase;
+    font-size: 2vw;
+    /* font-weight: 570; */
+    /* font-weight: 500; */
+    margin-bottom: 5vh;
+    padding: 1.6vw 0;
+}
+
+#content2>h2{
+    font-size: 1.6vw;
+    width: 60%;
+    /* background-color: red; */
+    font-weight: 400;
+    line-height: 1.75vw;
+    margin-bottom: 3vw;
+    /* width: 40%; */
+}
+
+#content2>p{
+    width: 90%;
+    /* background-color: red; */
+    font-size: 1.0vw;
+    font-weight: 400;
+    color: rgb(48, 46, 46);
+    margin-bottom: 3vw; ;
+}
+
+#content3{
+    height: 43vh;
+    width: 85.5%;
+    /* background-color: red; */
+    padding: 1vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 4.25vw; */
+    /* position: relative; */
+    gap: 3vw;
+}
+
+#left-cont-image{
+    height: 100%;
+    width: 50%;
+    /* background-color: salmon; */
+    background-image: url(https://images.unsplash.com/photo-1625017214880-29151b33ffb3?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1668638806052-4544af05f648?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-position: 0 30%;
+    background-size: cover;
+}
+
+#right-cont-image{
+    height: 100%;
+    width: 40%;
+    /* background-color: lightgreen; */
+    background-image: url(https://images.unsplash.com/photo-1567920417781-bc7b5b8842d8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    /* margin-left: 1vw; */
+    /* position: absolute; */
+}
+
+#page7{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 1.5vw 9.9vw 1.5vw 5.7vw;
+}
+
+#contentp{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    /* object-position: center; */
+    /* object-fit: cover; */
+    /* background-image: url(https://images.unsplash.com/photo-1509041282410-ef44f92a193f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    /* background-size: cover; */
+    /* background-position: 0 30%; */
+}
+
+#contentp>img{
+    height: 100%;
+    width: 100%;
+    /* object-position: 0 17%; */
+    object-fit: cover;
+    object-position: center;
 }
