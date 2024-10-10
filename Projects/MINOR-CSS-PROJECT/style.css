@@ -287,8 +287,10 @@ html,body{
     align-items: center;
     justify-content: center;
     gap: 0.9vw;
-    border-top: 0.15vw solid black;
+    /* border-top: 0.15vw solid black; */
     /* border: 2px solid black; */
+    /* border-bottom: 0.15vw solid black; */
+    border-top: 0.15vw solid black;
     border-bottom: 0.15vw solid black;
 }
 
@@ -317,8 +319,10 @@ html,body{
     transition: all ease 0.2s;
 }
 
-#alphabet h6:hover{
+#alphabet:hover h6{
     border: 1px solid #000;
+    /* cursor:pointer; */
+    /* transition: all ease 0.2s; */
 }
 
 #page2{
