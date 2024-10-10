@@ -224,3 +224,9 @@ Note: If you want to change inside the block of grid: align-items and justify-it
 
 
             Note : Form mae inputs aate hai, id name should not be repeat again and class name can be repeat again.
+
+
+
+    -webkit-text-stroke: 2px black;   // For the stroke of a text
+    color: transparent;
+    font-family: monument;
