@@ -170,6 +170,7 @@ html,body{
     /* height: 44.55%; */
     height: 52.5%;
     /* height: 49.5%; */
+    /* height: calc(100% - 80vh); */
     width: 100%;
     /* background-color: red; */
     position: absolute;
@@ -182,6 +183,8 @@ html,body{
 }
 
 #over1{
+    /* height: 50%; */
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -210,25 +213,56 @@ html,body{
 }
 
 #over2{
+    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 2px solid white;
-    padding: 1.2vw 0;
+    border-top: 1px solid #fff;
+    padding: 1vw 0.5vw;
 }
 
 #over2 h4{
-    font-size: 1.35vw;
+    font-size: 1.7vw;
     font-weight: 400;
-    /* font-family: monument; */
+    font-family: monument;
+    letter-spacing: 0.15vw;
 }
 
-#over2 img{
-    height: 5vw;
-}
+
+
+/* #over2 img{ */
+    /* position: absolute; */
+    /* top: 0; */
+    /* height: 100%; */
+    /* width: 100%/; */
+    /* size-adjust: 1vw; */
+/* } */
+
+/* #over2{ */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* border-top: 2px solid white; */
+    /* padding: 1.2vw 0; */
+/* } */
+
+/* #over2 h4{
+    font-size: 1.35vw;
+    font-weight: 400;
+    font-family: monument;
+} */
+
+/* #over2 img{ */
+    /* height: 5vw; */
+    /* height: 1vh; */
+    /* width: 10%; */
+/* }  */
+
 
 #scroll{
     margin-top: 5.5vh;
+    /* margin-top: 6vh; */
+    /* margin-top: 20vh; */
     height: 40vh;
     width: 100%;
     background-color: #f8f8f8;
@@ -238,10 +272,10 @@ html,body{
     /* overflow-x: auto; */
     overflow-x: hidden;
     overflow-y: hidden;
-    /* background-color: rgba(255, 255, 255, 0); */
+    background-color: rgba(255, 255, 255, 0);
     /* animation: scrolling 5s timing-function 2s iteration-count direction fill-mode; */
-    /* animation-name: scrolling; */
-    /* animation-duration: 5s; */
+    animation-name: scrolling;
+    animation-duration: 5s;
 }
 
 #container{
@@ -283,10 +317,12 @@ html,body{
     height: 10.3vh;
     width: 100%;
     /* background-color: red; */
+    /* background-color: #f8f8f8; */
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.9vw;
+    /* gap: 0.9vw; */
+    gap: 0.35vw;
     /* border-top: 0.15vw solid black; */
     /* border: 2px solid black; */
     /* border-bottom: 0.15vw solid black; */
@@ -303,23 +339,25 @@ html,body{
     border-bottom: 2px solid #000;
     letter-spacing: 0.3vw;
     margin-right: 2.25vw;
+    /* margin-right: 2.30vw; */
 }
 
 #alphabet h6{
-    font-size: 0.95vw;
+    font-size: 1vw;
     font-weight: 400;
     font-style: italic;
     text-transform: uppercase;
     /* background-color: yellow; */
-    /* padding: 0.45vw 0.65vw; */
+    /* padding: 0.45vw 0.66vw; */
     padding: 0.4vw 0.8vw;
     border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
     cursor: pointer;
     transition: all ease 0.2s;
+    /* margin-left: ; */
 }
 
-#alphabet:hover h6{
+#alphabet h6:hover{
     border: 1px solid #000;
     /* cursor:pointer; */
     /* transition: all ease 0.2s; */
@@ -352,6 +390,8 @@ html,body{
 #page2part2 img{
     height: 70%;
     width: 90%;
+    /* height: 100%; */
+    /* width: 100%; */
     background-size: cover;
     background-position: center;
 }
