@@ -178,8 +178,8 @@ html,body{
     padding: 2vw;
     /* padding: 1.5vw; */
     color: #fff;
-    /* background-color: #00000047; */
-    /* backdrop-filter:blur(10px), 10% #00000047; */
+    /* background-color: #00000010; */
+    /* backdrop-filter:blur(30px), 10% #000000; */
 }
 
 #over1{
@@ -1066,12 +1066,37 @@ html,body{
     /* background-color: red; */
 }
 
+#content9{
+    height: calc(100% - 10vh);
+    width: 100%;
+    /* background-color: salmon; */
+    display: flex;
+    /* align-items: ; */
+    justify-content: space-between;
+}
+
 /* #left9{
     height: 10vh;
     width: 100%;
     /* background-color: red; */
     /* padding: 0.5vw 1vw; */
 
+#left9{
+    /* background-color: blue; */
+    height: 100%;
+    width: 30%;
+}
 
+#mid9{
+    /* background-color:blueviolet; */
+    height: 100%;
+    width: 50%;
+}
+
+#right9{
+    /* background-color: green; */
+    height: 100%;
+    width: 50%;
+}
 
 
