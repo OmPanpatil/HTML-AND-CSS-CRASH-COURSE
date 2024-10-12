@@ -1009,7 +1009,7 @@ html,body{
 #text8>p{
     height: 100%;
     width: fit-content;
-    font-size: 1vw;
+    font-size: 1.05vw;
     font-weight: 390;
     line-height: 1.4vw;
 }
@@ -1064,6 +1064,7 @@ html,body{
     height:100%;
     width: 100%;
     /* background-color: red; */
+    /* padding: 5vw 0 4vw 0; */
 }
 
 #content9{
@@ -1073,6 +1074,7 @@ html,body{
     display: flex;
     /* align-items: ; */
     justify-content: space-between;
+    /* padding: 5vw 0 4vw 0; */
 }
 
 /* #left9{
@@ -1085,18 +1087,66 @@ html,body{
     /* background-color: blue; */
     height: 100%;
     width: 30%;
+    position: relative;
+    /* padding: 5vw; */
+    padding: 5vw 0 4vw 0;
+
+}
+
+#left9 h1{
+    /* font-size: 2.55vw; */
+    /* text-align: center; */
+    font-family: monument;
+    text-transform: uppercase;
+    font-size: 2.3vw;
+    /* font-weight: 570; */
+    /* margin-bottom: 10.5vh; */
+    position: absolute;
+    left: 15%;
+
 }
 
 #mid9{
     /* background-color:blueviolet; */
     height: 100%;
-    width: 50%;
+    width: 33%;
+    padding: 5vw 1vw 4vw 1vw;
+
+}
+
+#mid9 p{
+    font-size: 1.3vw;
+    /* width: 100%; */
+    font-weight: 400;
+    margin-bottom: 3vw;
+}
+
+#cont-mid9{
+    /* background-color: brown; */
+    height: 70%;
+    width: 75%;
+}
+
+#mid9 img{
+    /* background-color: saddlebrown; */
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 #right9{
     /* background-color: green; */
     height: 100%;
-    width: 50%;
+    width: 33%;
+    padding: 5vw 2vw 4vw 2vw;
+    /* background-color: red; */
+}
+
+#right9 p{
+    font-size: 1.3vw;
+    /* width: 100%; */
+    font-weight: 400;
 }
 
 
