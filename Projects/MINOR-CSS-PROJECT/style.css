@@ -1178,7 +1178,8 @@ html,body{
 /* Footer page */
 
 #footer{
-    height: 50%;
+    height: 40%;
+    /* height: 50%; */
     width: 100%;
     /* background-color: red; */
     padding: 0 0 4vw 0;
@@ -1210,6 +1211,7 @@ html,body{
     /* padding: 2vw 6vw 1vw 6vw; */
     /* padding: 2vw 2vw 1vw 2vw; */
     border-right: 2px solid black;
+    position: relative;
 }
 
 #left-cont-footer>h1{
@@ -1218,7 +1220,24 @@ html,body{
     font-size: 2vw;
     font-family: monument;
     letter-spacing: -0.1vw;
+    /* position: relative; */
+}
 
+#left-cont-footer>h6{
+    position: absolute;
+    /* top: 21%; */
+    top: 28%;
+    left: 27.2%;
+    font-size: 0.7vw;
+    font-weight: 400;
+}
+
+#left-cont-footer>p{
+    position: absolute;
+    left: 45%;
+    font-size: 1.2vw;
+    top: 11.5%;
+    /* top: 8.5%; */
 }
 
 #left-cont-footer>h2{
@@ -1252,7 +1271,7 @@ html,body{
     height: 100%;
     width: 40%;
     /* background-color: blue; */
-    padding: 2vw 2vw 2vw 2vw;
+    /* padding: 2vw 2vw 2vw 2vw; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1260,7 +1279,16 @@ html,body{
     /* border: 2px solid black; */
 }
 
-#right-cont-footer>h2{
+#right-cont-footer-h2{
+    height: 35%;
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: 2px solid black;
+    padding: 2vw 2vw 2vw 2vw;
+
+}
+
+#right-cont-footer-h2 h2{
     margin-top: 0.5vw;
     font-size: 1.3vw;
     font-weight: 400;
@@ -1268,3 +1296,34 @@ html,body{
     /* border-bottom: 2px solid black; */
 }
 
+#right-cont-footer-bottom{
+    height: 65%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.akons{
+    height: 25%;
+    width: 100%;
+    /* background-color: pink; */
+    /* padding: 2vw 2vw 2vw 2vw; */
+    padding: 1.2vw 1vw 1vw 2vw;
+    display: flex;
+    gap: 1.1vw;
+    margin-bottom: 0.5vw;
+    /* margin-bottom: 1vw; */
+}
+
+.akons i{
+    font-size: 1.35vw;
+    /* gap: 2vw; */
+    font-weight: 500;
+    color: #3b3939;
+}
+
+#right-cont-footer-bottom p{
+    padding: 1vw 1vw 1vw 2vw;
+    font-size: 1vw;
+    line-height: 1.3vw;
+    font-weight: 400;
+}
