@@ -1307,7 +1307,7 @@ html,body{
     width: 100%;
     /* background-color: pink; */
     /* padding: 2vw 2vw 2vw 2vw; */
-    padding: 1.2vw 1vw 1vw 2vw;
+    padding: 1.2vw 1vw 1.5vw 2vw;
     display: flex;
     gap: 1.1vw;
     margin-bottom: 0.5vw;
