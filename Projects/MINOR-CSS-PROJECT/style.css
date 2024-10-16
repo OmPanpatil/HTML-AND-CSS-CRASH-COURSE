@@ -1223,22 +1223,51 @@ html,body{
     /* position: relative; */
 }
 
-#left-cont-footer>h6{
+#left-cont-footer h1::after{
+    content: "©️";
+    font-family: gilroy;
+    font-weight: 450;
+    font-size: 1.1vw;
     position: absolute;
-    /* top: 21%; */
-    top: 28%;
-    left: 27.2%;
-    font-size: 0.7vw;
-    font-weight: 400;
+    top: 12.5%;
+    right: 53.2%;
 }
 
-#left-cont-footer>p{
+/* #left-cont-footer h1::before{ */
+    /* content: "model management"; */
+/* } */
+
+#left-cont-footer h1::before{
+    content: "model management";
+    font-family: Gilroy;
+    font-weight: 100;
+    font-size: 1.1vw;
+    color: #2f2f2f;
+    position: absolute;
+    top: 28.5%;
+    letter-spacing: -0.02vw;
+    left: 21.2%;
+}
+
+/* #left-cont-footer>h6{ */
+    /* position: absolute; */
+    /* Not to */
+    /* top: 21%; */
+    /* to do this */
+    /* top: 28%;
+    left: 27.2%;
+    font-size: 0.7vw;
+    font-weight: 400; */
+/* } */
+
+/* #left-cont-footer>p{
     position: absolute;
     left: 45%;
     font-size: 1.2vw;
-    top: 11.5%;
+    top: 11.5%; */
+    /* Not to lower */
     /* top: 8.5%; */
-}
+/* } */
 
 #left-cont-footer>h2{
     margin-top: 0.5vw;
@@ -1284,8 +1313,8 @@ html,body{
     width: 100%;
     /* background-color: red; */
     border-bottom: 2px solid black;
-    padding: 2vw 2vw 2vw 2vw;
-
+    /* padding: 2vw 2vw 2vw 2vw; */
+    padding: 1vw 2vw 1vw 2vw;
 }
 
 #right-cont-footer-h2 h2{
