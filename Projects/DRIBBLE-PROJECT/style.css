@@ -67,7 +67,7 @@ html,body{
 
 #nav-part2{
     width: 32%;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -87,10 +87,35 @@ html,body{
     margin: 0 0.1vw;
 }
 
-#nav-part2 button:nth-child(1){
+#nav-part2 button:nth-child(2){
     background-color: transparent;
     color: #000;
 }
+
+#nav-part2 form{
+    height: 5vh;
+    border-radius: 5vw;
+    width: 13vw;
+    margin-right: 2vw;
+    /* padding: 0 3vw; */
+}
+
+
+#nav-part2 input{
+    height: 5vh;
+    border-radius: 5vw;
+    width: 13vw;
+    padding: 0 2.3vw;
+    font-size: 1vw;
+    border: none;
+}
+
+/* #nav-part2 input::before{
+    /* content: "<i class="ri-search-line"></i>"; */
+    /* content: "🔍";
+    height: 2vh;
+    width: 2vw; */
+/* } */
 
 
 #page1 #content{
