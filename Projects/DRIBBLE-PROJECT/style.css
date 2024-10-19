@@ -10,6 +10,7 @@ html,body{
     width: 100%;
     height: 100%;
     background-color: #f8f7f4;
+    /* background-color: blue; */
 }
 
 /* title::before{
@@ -28,7 +29,7 @@ html,body{
 #nav{
     height: 15vh;
     width: 100%;
-    /* background-color: blue; */
+    /* background-color: beige; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -121,5 +122,69 @@ html,body{
 #page1 #content{
     height: calc(100% - 15vh);
     width: 100%;
-    background-color: orange;
+    /* background-color: orange; */
+    padding-top: 5vw;
+}
+
+#content h3{
+    background-color: #F2B0EA;
+    padding: 0.75vw 1.3vw;
+    width: fit-content;
+    text-align: center;
+    border-radius: 5vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1vw;
+    font-weight: 550;
+}
+/* 
+@keyframes colour-changing {
+} */
+
+#content h1{
+    font-size: 5.4vw;
+    /* font-size: 4.2vw; */
+    /* font-size: 3.9vw; */
+    text-align: center;
+    margin: 2.3vw 0 2.1vw 0;
+    font-weight: 500;
+    /* width: 50%; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: 'Gill Sans'; */
+    font-family: 'Source serif 4';
+    /* font-family: 'Gill Sans MT'; */
+    /* font-family: Calibri; */
+    /* font-family: sans-serif; */
+    /* font-family: 'Trebuchet MS'; */
+
+    line-height: 5.2vw;
+}
+
+#content h4{
+    text-align: center;
+    /* font-size: 1.28vw; */
+    font-size: 1.35vw;
+    font-weight: 549.99;
+}
+
+#content button{
+    /* padding: 0.9vw 1.4vw; */
+    /* padding: 1.2vw 1.55vw; */
+    padding: 1.25vw 1.6vw;
+    border-radius: 5vw;
+    font-size: 1vw;
+    /* font-size: 1.02vw; */
+    /* font-size: 1.05vw; */
+    /* font-weight: 549.9; */
+    font-weight: 549;
+    /* font-weight: 480; */
+    border: none;
+    background-color: black;
+    color: white;
+    /* margin: 0 0.1vw; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 2.1vw 0;
 }
