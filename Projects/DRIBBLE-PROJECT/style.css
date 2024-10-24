@@ -143,7 +143,8 @@ html,body{
 } */
 
 #content h1{
-    font-size: 5.4vw;
+    /* font-size: 5.4vw; */
+    font-size: 5.3vw;
     /* font-size: 4.2vw; */
     /* font-size: 3.9vw; */
     text-align: center;
@@ -187,4 +188,69 @@ html,body{
     left: 50%;
     transform: translateX(-50%);
     margin: 2.1vw 0;
+}
+
+#scroll{
+    /* height: 50%; */
+    height: 50vh;
+    width: 100%;
+    background-color: rebeccapurple;
+    padding: 0.5vw;
+    /* display: flex;
+    flex-wrap: nowrap;
+    gap: 1vw;
+    overflow-x: auto;
+    overflow-y: hidden; */
+    /* display: inline-block;    */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* margin-right: 3vw; */
+    animation-name: scrolling;
+    /* animation-duration: 5s; */
+}
+
+.container{
+    height: 100%;
+    /* width: 100%; */
+    width: 17.9vw;
+    background-color: #F2B0EA;
+    /* border: 2px solid black; */
+    /* flex-shrink: 0; */
+    display: inline-block;
+    margin-right: 1vw;
+    border-radius: 2vw;
+    /* animation: scrolling 2s 3s 1s infinite linear 0; */
+    animation-name: scrolling;
+    /* animation-duration: 7.55s; */
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    /* animation: ease-in-out; */
+    /* animation-timing-function: calc(100% - 0.8vw); */
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+#scroll::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes scrolling {
+    form{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+/* Page2 */
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    margin-top: 35vh;
 }
