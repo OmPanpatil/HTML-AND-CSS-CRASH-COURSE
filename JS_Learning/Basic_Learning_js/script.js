@@ -14,3 +14,13 @@
 // Asynchronous JS
 // ES6 Climax
 // 
+
+
+
+// JS The Language :
+// --> Made by Brendan Eigg
+// And to work with the functionality and update and also manage it here is a company known as Ecmascript
+
+// Js The Language = Code sikhana, main feature
+// Js the Dom = code likhkar cheezein banana Seekhna
+
