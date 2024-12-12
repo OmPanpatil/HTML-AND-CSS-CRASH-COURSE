@@ -35,5 +35,11 @@
 
 // In-Built Features : Console, alert, prompt
 // And also contain web Context API.
+// COnsole : message as console.log(), console.warn(), console.error()
+
+// alert(""), prompt(" ")
 
 // Prompt alert ka bhai hai jou ki aek kadam aage hai
+
+// Variables and constants : har programming language mae data hotta hai aur ussae deal karna hotta hai, example : ATM
+// wou alag alag prakar ka data ho sakhta hai, agar ussae deal karna hai toh wou save karna hoga, yeh data save karna kae liye koi saving space chahiye jaha par data save hojaye and ye save karne ke liye unhe kuchh naam bhi dena padega and esiliye variables and constants bannane padte hai taa ki data save hojaye and unka koi naam bhi ho taaki hum badmae access kar paye

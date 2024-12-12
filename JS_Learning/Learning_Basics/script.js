@@ -20,3 +20,5 @@ alert("Hey, How are you! We will catch you in a short time")
 
 prompt("Tell us your best time")
 
+// Variables and Constants
+
