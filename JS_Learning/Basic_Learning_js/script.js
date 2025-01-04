@@ -13,14 +13,14 @@
 // Prototypal inheritance,
 // Asynchronous JS
 // ES6 Climax
-// 
+// questions
 
 
 
 // JS The Language :
 // --> Made by Brendan Eigg
 // And to work with the functionality and update and also manage it here is a company known as Ecmascript
-// Naye features lanna, puraane hatana, kharab features sahi karna and overall development of js.
+// Naye features lanna, puraane hatana, kharab features sahi karna and overall development of js is done by Ecmascript Community.
 
 // Js now only have two parts ES5 and ES6 
 // Es5 is known as ES5 and before
