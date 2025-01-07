@@ -14,6 +14,7 @@
 // Asynchronous JS
 // ES6 Climax
 // questions
+// Miscellaneous : Switch case, Ternary
 
 
 

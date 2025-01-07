@@ -78,3 +78,110 @@ var d = 24;
 var e = d; 
 
 // 12.4 ==> 16:5
+
+// variablename.pop(); --> to remove last unit
+
+// To copy a variable or primitive data types we can use the Spread Operator :
+var ar = [12,13,14,15];
+var gh = [1,2,3];
+var ba = [...gh];
+
+// Conditionals :
+// True or false statements,
+// if-else, else-if, ternary operator, Switch Case
+// Jab bhi aapko program mein decision lenna ho, ki aage ka execution kaisa ho toh waha par if else else-if use hota hai.
+// In If condition mein humeisha true ya false aata hai
+// Har value ko true ya false banaya jaa sakhta hai, yeh depend karta hai, ki wou value ka type kya hai, agar wou value, truthy hai toh true banegi and falsy toh false.
+// Falsy : Null, document.all ,0, blank string --> (" " , ' '), undefined, NaN, false ==> can be identifying using boolean as it helps to give the value in True or False.
+// Truthy : 12,45, false, document.all, null, true, "hekllo" 
+
+if(num>13){
+    console.log("13 is greater than the given number.");
+}
+else{
+    console.log("13 is lesser than the given number");
+}
+
+// Else-if condition :
+
+if(age<18){
+    console.log("Under age");
+}
+else if(age == 18){
+    console.log("You are eligible but still have some restriction");
+}
+else{
+    console.log("You are eligible");
+}
+
+// Loops :
+// Loops = Repeat
+// For, while, do-while loop, foreach, forin, forof
+
+// for(initialization; condition; updation){}
+// for(start;end;change){}
+// for(initialization;condition;updation){}
+// for(start;end;change){}
+// for(initialization;condition;updation){}
+// for(start;end;change){}
+// for(start;end;change){}
+// for(start;end;change){}
+// for(start;end;change){}
+// for(start;end;change){}
+// for(start;end;change){}
+// for(start;end;change){}
+// for(initialization;condition;updation){}
+
+// 1-10; 25-50, 35-40, 20-5, 5-1
+
+// for(start;end;change){}
+
+for(var i=1; i<=10; i++){
+    console.log(i);
+}
+
+//25-50 
+
+for(var j=25; j<=50; j++){
+    console.log(j);
+}
+
+// 35-40
+
+for(var k=35; k<=40; k++){
+    console.log(k);
+}
+
+// 20-5
+
+for(var l=20; l>=5; l--){
+    console.log(l);
+}
+
+// 5-1
+
+for(var m=5; m>=1; m--){
+    console.log(m);
+}
+
+// While Loop :
+// while(condition / end){ change } --> Syntax
+
+// Syntax Below -->
+
+// initialization;
+// while(condition){
+//     updation;
+// }
+
+// start;
+// while(end){
+//     Change;
+// }
+
+// Glory with loops
+// try to create basic loop structure.
+
+// Foreach aek normal loop nahi hai for and while loop ki tarah jou numbers pe ya start end par chalta hai, 
+// foreach loop sirf array pe chalta hai
+
