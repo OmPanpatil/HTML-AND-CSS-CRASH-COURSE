@@ -185,3 +185,25 @@ for(var m=5; m>=1; m--){
 // Foreach aek normal loop nahi hai for and while loop ki tarah jou numbers pe ya start end par chalta hai, 
 // foreach loop sirf array pe chalta hai
 
+// Forin loop is used to iterate over the object properties.
+
+// Forof loop is used to iterate over the values of the object.
+
+// functions : Functions are the block of code which can be reused and can be called anytime.
+// Javascript is a functional programming language. Which has two imp parts : ES5 and ES6.
+// ES5 is the older version of JS and ES6 is the newer version of JS.
+// ES5 has the function keyword and ES6 has the arrow function.
+// We can create a function using the function keyword and arrow function.
+// Es5 has three parts and ES6 has only 1 part.
+// ES5 has function keyword, function name, and function body.
+// ES6 has only function body.
+// Es5 : (A) function statements, (B) Function Expressions, (C) Anonymous Functions
+// Es6 : Fat Arrow Functions => (A) Basic Fat Arrow, (B) Fat Arrow with one parameter, (c) Fat Arrow with implicit return.
+// Function in Js is not like a normal function, it is a first class citizen.Iska matlab hai, yaha par js mein functions banane ke liye type nahi batana padta bas aapko function word likhna padega and aap usse koi naam deke bana sakhte hoo.
+// Indepth -Js mein functions ko first class functions ka darja diya gaya hai, jiska matlab hai ki js mein functions ko value/Variable ki tarah treat kiya jaa sakhta hai.
+
+// What is functions
+// why we need functions
+// How to use functions
+
+// extras we should know about functions
