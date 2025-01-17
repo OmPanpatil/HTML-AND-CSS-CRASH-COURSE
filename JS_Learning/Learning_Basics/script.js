@@ -20,6 +20,8 @@ alert("Hey, How are you! We will catch you in a short time")
 
 prompt("Tell us your best time")
 
+var name = prompt("Tell us your best time");
+
 // Variables and Constants
 
 // Variables and constants are both container. But, in variables the value changes and in constants the values remain the same always as it is always setup and can't be changed.
@@ -40,14 +42,16 @@ const c = 32;
 // Compilers and Interpreters 
 // Compiler : Task get solves slowly but it runs fastly.
 // Interpreters : Task get solves fastly but it runs slowly.
+
 // Js english language use karti hai and computers english nahi samjhte, wou samajhte hai ( 0 and 1 / current flow or current bypass ) bhi keh sakhte ho, And hum chahte hai hum english mae likh ke computer sae baat karre.
 // Toh hum aek translator lagaye jou ki humara code english mae lega and usse 0 and 1 mae convert kar degga.
+
 // compiler and interpreters translator hai jou ki english code ko convert kar rahe hai machine code mein.
 // Compiler converts the code first into machine code mein yeh hottae faster but slower conversion rate hotta hai
 // Java, C => Compiler type of language.
 // JS is a interpreters type of language.
 
-// But there is a compiler called JIT (Just In Time) COmpiler which introduced the both as first it runs with the power of interpreter and then it run as a compiler.
+// But there is a compiler called JIT (Just In Time) COmpiler which introduced the both as first it runs with the power of interpreter solving and then it run as a compiler fast.
 // OR Interpreter ki shuruati taakat use karte hai and compiler ki running taakat use karta hai.
 // Compiler --> Machine code --> output
 // Interpreters --> byte code --> machine code --> output
