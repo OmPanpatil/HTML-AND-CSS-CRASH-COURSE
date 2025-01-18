@@ -9,6 +9,8 @@
 // Window
 // Types 
 // Conditional statements, Loops, Functions : 6 types of functions
+// Return : Return value, Return undefined, return not defined, return null
+// Scope, Hoisting, Temporal Dead Zone
 // Arrays, Objects, Questions related to it
 // Prototypal inheritance,
 // Asynchronous JS

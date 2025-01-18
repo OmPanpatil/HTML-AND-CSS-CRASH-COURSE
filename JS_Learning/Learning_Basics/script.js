@@ -266,4 +266,185 @@ happybirthday();
 // Extras we should know about functions :
 // Two things are important in functions : (a) Parameters, (b) Arguments
 
-// 22:21
+// Parameters : Parameters are the variables which are used in the function definition
+// Arguments : Arguments are the values which are passed to the function call.
+
+// Example :
+// Parameters : function add(a,b){ console.log(a+b); }
+// Arguments : add(12,13);
+
+// prep for interview :
+
+// What is the difference between parameters and arguments?
+// Parameters are the variables which are used in the function definition and arguments are the values which are passed to the function call.
+
+// What is the difference between function definition and function call?
+// Function definition is the block of code which is used to define the function and function call is the block of code which is used to call the function.
+
+// What is the difference between function and function expression?
+// Function is the block of code which is used to define the function and function expression is the block of code which is used to define the function as a variable.
+
+// What is the difference between function and arrow function?
+// Function is the block of code which is used to define the function and arrow function is the block of code which is used to define the function as a variable using the arrow.
+
+// What is the difference between function and anonymous function?
+// Function is the block of code which is used to define the function and anonymous function is the block of code which is used to define the function without the name.
+
+// What is the difference between function and fat arrow function?
+// Function is the block of code which is used to define the function and fat arrow function is the block of code which is used to define the function as a variable using the fat arrow.
+
+// What is the difference between function and basic fat arrow function?
+// Function is the block of code which is used to define the function and basic fat arrow function is the block of code which is used to define the function as a variable using the basic fat arrow.
+
+// What is the difference between function and fat arrow function with one parameter?
+// Function is the block of code which is used to define the function and fat arrow function with one parameter is the block of code which is used to define the function as a variable using the fat arrow with one parameter.
+
+// What is the difference between function and fat arrow function with implicit return?
+// Function is the block of code which is used to define the function and fat arrow function with implicit return is the block of code which is used to define the function as a variable using the fat arrow with implicit return.
+
+// What is the difference between function and function statements?
+// Function is the block of code which is used to define the function and function statements is the block of code which is used to define the function as a statement.
+
+// Function statement --> 
+// function add(a,b){ console.log(a+b); }
+
+function adding(){
+    // function statement or simple function 
+}
+
+// Function Expressions -->
+// var add = function(a,b){ console.log(a+b); } add(12,13);
+
+var adding = function(){
+    // function expression
+
+}
+
+// In function expression the function is assigned to a variable and the variable is used to call the function. And hence we do not have to use the function name to call the function and we can use the variable name to call the function.
+
+// Always remember that function statement is hoisted and function expression is not hoisted.
+// Hoisting is a mechanism in JS which moves the declaration of the variable to the top of the scope.
+
+// Anonymous Functions -->
+
+// Anonymous functions are the functions which do not have the name and are used to define the function without the name.
+// function (){
+    // Anonymous function
+// }
+
+// Fat Arrow Functions -->
+// Fat arrow functions are the functions which are used to define the function as a variable using the fat arrow indicated by ()=>
+// Fat arrow functions are the functions which are used to define the function as a variable using the fat arrow indicated by ()=>
+
+// var exampleFunction = ()=> {
+    // Fat arrow function
+// }
+
+
+// 1. Basic Fat Arrow Functions -->
+// var add = ()=>{ console.log("Hello"); }
+
+var add = ()=>{
+    console.log("Hello");
+}
+
+add();
+
+var m = ()=>{
+    console.log("Hello");
+}
+
+m();
+
+// 2. Fat Arrow Function with one parameter -->
+// var add = (a)=>{ console.log(a); }
+
+// Remember that in fat arrow function with one parameter we cant and we can be make use of  parenthesis and we can directly use the parameter name and it always having one parameter.
+
+// While using the parenthesis we can use the parameter name and while not using the parenthesis we can directly use the parameter name.
+// Fat arrow function with one parameter with Parenthesis :
+var g = (abcd)=>{
+    console.log("Namastey", abcd);
+}
+
+g(13);
+
+// Fat arrow function with one parameter without Parenthesis :
+var h = abcde =>{
+    console.log("Namastey mere bhai aur unke baeheno",abcde);
+}
+
+h(55);
+
+// 3. Fat Arrow Function with Implicit Return -->
+// var add = (a,b)=> a+b;
+var dcba = ()=>"Om";
+var ans = dcba();
+// console.log(ans);
+// console.log(add(12,13));
+
+// Scope : Scope is the area in which the variable is accessible.
+
+// Global Scope : The variable which is declared outside the function is called as the global variable and is accessible throughout the program.
+
+// Local Scope : The variable which is declared inside the function is called as the local variable and is accessible only inside the function.
+
+// Block Scope : The variable which is declared inside the block is called as the block variable and is accessible only inside the block.
+
+// Lexical Scope : The variable which is declared inside the function is called as the lexical variable and is accessible only inside the function.
+
+// Hoisting : Hoisting is a mechanism in JS which moves the declaration of the variable to the top of the scope.
+
+// Temporal Dead Zone : Temporal Dead Zone is the area in which the variable is not accessible.
+
+
+// Return -->
+
+// Return ka matlab hua, ki jo bhi value function mein return kiya gaya woh value function call karne wale ko mil jayega. Jessae ki jaha par bhi return lagega usske jo bhi likhoge wou jayega jaha par function call hua tha, return functions ke andar lagta hai.
+// Return : Return is the keyword which is used to return the value from the function.
+// And return ko hum do type sae lae sakhte hai : 1. Ans sae jabhi humeisha return karna padega, 2. Ans sae jabhi return karna padega, 3.directly console return bhi karsakhte hai means output ko console mein return karne ke liye.
+// aisa function jo ki kuchh return nahi karta woh undefined return karta hai.
+
+
+// Example :
+function vu(){
+    return "Om Panpatil";
+}
+
+var ans = vu();
+
+// console.log();
+
+function vu(){
+    return "Om Panpatil";
+}
+
+console.log(vu());
+
+function chirst(){
+    return 7;
+}
+
+console.log(chirst());
+
+// Why functions always returns something in js?
+// Functions always return something in js because js is a functional programming language and functions are the first class citizens in js and hence functions always return something in js.
+// A function must always return something. It's a ground rule. Javascript follows this rule, functions always return something. If you don't return anything, it will return undefined.
+
+// Some fat arrow examples :
+var a = ()=>{
+    return "how is your day";
+}
+
+a();
+console.log(a());
+
+var b = a();
+
+
+// Implicit return :
+
+var b = ()=>"I am fine, so what do you do";
+
+
+
