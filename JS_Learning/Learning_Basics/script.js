@@ -96,20 +96,23 @@ var ba = [...gh];
 // Jab bhi aapko program mein decision lenna ho, ki aage ka execution kaisa ho toh waha par if else else-if use hota hai.
 // In If condition mein humeisha true ya false aata hai
 // Har value ko true ya false banaya jaa sakhta hai, yeh depend karta hai, ki wou value ka type kya hai, agar wou value, truthy hai toh true banegi and falsy toh false.
-// Falsy : Null, document.all ,0, blank string --> (" " , ' '), undefined, NaN, false ==> can be identifying using boolean as it helps to give the value in True or False.
+// Falsy : Null, document.all ,0, blank string --> (" " , ' '), undefined, NaN, false ==> can be identifying using boolean as it helps to give the value in True or False, document.all are false.
 // Truthy : 12,45, false, document.all, null, true, "hekllo" 
 
+// If-else :
+var num = 12;
 if(num>13){
-    console.log("13 is greater than the given number.");
+    console.log("13 is greater than the given number.", num);
 }
 else{
-    console.log("13 is lesser than the given number");
+    console.log("13 is lesser than the given number", num);
 }
 
 // Else-if condition :
 
+var age = 18;
 if(age<18){
-    console.log("Under age");
+    console.log("Under age", age);
 }
 else if(age == 18){
     console.log("You are eligible but still have some restriction");
@@ -211,3 +214,56 @@ for(var m=5; m>=1; m--){
 // How to use functions
 
 // extras we should know about functions
+
+// what is functions : koi essa block of code jo ki hum baar baar use kar sakte hai, and humeisha wahi code likhna padega toh hum usse function mein dalkar usse baar baar use kar sakte hai.
+
+function abcd(){ 
+    var abb = 12;
+    console.log(abb);
+    for(var bb=12; bb<=20; bb++){
+        console.log(bb);
+    }
+}
+
+abcd();
+
+function naambatao(){
+    console.log("Om Panpatil");
+}
+
+naambatao();
+
+// Example:
+// Facebook Happy Birthday :
+
+var dateofbirth = 12;
+var todaysdate = 12;
+
+function happybirthday(){
+    if(dateofbirth === todaysdate){
+        console.log("Happy Birthday");
+    }
+    else{
+        console.log("Happy Unbirthday");
+    }
+}
+
+happybirthday();
+
+// Why we need functions : Functions are used to reduce the code and make it reusable. Functions are used to make the code more readable and maintainable. Functions are used to make the code more modular and scalable.
+// Functions in need to reuse the code and wrap the code which we want to run in future at some point of time.
+// Functions are used to make the code more readable and maintainable as it is easy to understand the code and make the code more readable.
+// Functions are used to make the code more modular and scalable as it is easy to scale the code and make the code more modular.
+
+// How to use the Functions :
+
+// syntax :
+// function functionName(){
+//  output: code 
+// } 
+// function call : functionName();
+
+// Extras we should know about functions :
+// Two things are important in functions : (a) Parameters, (b) Arguments
+
+// 22:21
