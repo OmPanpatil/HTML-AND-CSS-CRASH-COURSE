@@ -446,5 +446,82 @@ var b = a();
 
 var b = ()=>"I am fine, so what do you do";
 
+b();
+
+// undefined is a value
+// yeh value tab di jaati hai jab variable ko koi value assign nahi hoti hai, iska matlab yeh hai, ki wou garbage value ki tarah treat ki jaati hai. aap isey default value bhi keh sakhte ho.
+// example :
+var a;
+var a = undefined;
+
+
+// not defined is an error
+// koi particular identity/element ko use karna without it's declaration gives an error, and that error is known as not defined error.
+// example :
+// console.log(b);
+
+// null is also a value
+// null is a value which is used to represent the absence of the value.
+// this is a value which resolve like, not found.
+// null is received when something is not found.
+// example :
+var x = null;
+
+// Scope : Scope is the area in which the variable is accessible.
+// Global Scope : The variable which is declared outside the function is called as the global variable and is accessible throughout the program.
+// Local Scope : The variable which is declared inside the function is called as the local variable and is accessible only inside the function.
+// Block Scope : The variable which is declared inside the block is called as the block variable and is accessible only inside the block.
+// Lexical Scope : The variable which is declared inside the function is called as the lexical variable and is accessible only inside the function.
+
+// Arrays :
+
+// what is an array?
+// array is a collection of elements which are stored in a single variable. And are stored in the form of the index.
+// array matlab jab bhi aapko ek yah ek sae jyada vaslues ko ek saath rakhna ho.
+
+// why we need an array?
+// we need an array to store the collection of elements in a single variable. And to access the elements using the index.
+// a  lot of times the data is in the shape of more tha one value/members to contain all data together, we can save it.
+
+// how to use an array?
+// to use an array we need to create an array using the square brackets and store the elements inside the square brackets.
+var arr = [12,13,14,15,16,17,18,19,20];
+arr[7];
+
+// Loop with array :
+
+// 1. How to loop an array ?
+// --> arrayname.foreach(function(value){})
+// arrayname.foreach(function(value){})
+// arrayname.foreach(function(value){})
+// arrayname.foreach(function(value){})
+// arrayname.forEach(function(value){})
+// arrayname.forEach(function(value){})
+// arrayname.foreach(function(value){})
+
+numberscounting = [1,2,3,4,5,6]
+numberscounting.forEach(function(value){
+    console.log(numberscounting);
+    console.log(value);
+})
+
+
+// How to loop an array and do something with each element means kuch task :
+
+numberssue = [2,4,6,8,10]
+numberssue.forEach(function(value){
+    console.log(value+value);
+})
+
+
+// Objects : Objects are the collection of key-value pairs which are stored in a single variable.  
+
+
+
+
+
+
+
+
 
 

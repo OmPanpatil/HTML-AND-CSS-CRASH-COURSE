@@ -12,6 +12,7 @@
 // Return : Return value, Return undefined, return not defined, return null
 // Scope, Hoisting, Temporal Dead Zone
 // Arrays, Objects, Questions related to it
+// loop with array
 // Prototypal inheritance,
 // Asynchronous JS
 // ES6 Climax
