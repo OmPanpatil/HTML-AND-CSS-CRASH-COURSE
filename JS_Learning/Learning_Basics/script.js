@@ -475,6 +475,10 @@ var x = null;
 
 // Arrays :
 
+// Array matlab jab bhi aapko aek yeh ek se jyada value ek saath rakhni ho.
+var users = ["om", "omisha", "omie"];
+console.log(users[1]);
+
 // what is an array?
 // array is a collection of elements which are stored in a single variable. And are stored in the form of the index.
 // array matlab jab bhi aapko ek yah ek sae jyada vaslues ko ek saath rakhna ho.
@@ -515,6 +519,35 @@ numberssue.forEach(function(value){
 
 
 // Objects : Objects are the collection of key-value pairs which are stored in a single variable.  
+
+// what is object?
+// object ek tareeka hai jesse ki hum ek identity ki details ko ek saath rakh sakhte hai.
+// example : Arrays store the collections of elements but the object stores the individual identity of every user/element.
+// bohot saare logo ka data ==> Array
+// Aek individual ka data ==> Object
+// Indication of array = [], indication of object = {}
+
+var obj = {
+    name: "Om",
+    age:2,
+    email : "kuchkuch@kuchkuch.com",
+};
+console.log(obj);
+var obj2 = new Object(); 
+
+var battery = {
+    companyname: "Nikon",
+    price : 13000,
+
+};
+
+// how to use it ?
+// when and why ?
+
+
+// Synchronous and Asynchronous Js :
+// Synchronous code mein code humesha line by line chalta hai
+// Asynchronous code line by line nahi chalta hai, sara asynch code ek saath s
 
 
 

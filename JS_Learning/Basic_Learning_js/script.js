@@ -14,12 +14,16 @@
 // Arrays, Objects, Questions related to it
 // loop with array
 // Prototypal inheritance,
-// Asynchronous JS
+// Synchronous , Asynchronous JS
 // ES6 Climax
 // questions
 // Miscellaneous : Switch case, Ternary
 
 
+//Interview prep : I
+// This call apply bind 
+// loop with array
+// Prototypal inheritance,
 
 // JS The Language :
 // --> Made by Brendan Eigg
