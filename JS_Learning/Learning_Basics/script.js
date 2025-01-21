@@ -517,6 +517,19 @@ numberssue.forEach(function(value){
     console.log(value+value);
 })
 
+numberssums = [1, 3, 5, 7, 9]
+numberssums.forEach(function(value){
+    var nu1 = 1;
+    var nu2 = 3;
+    var nu3 = 5;
+    var nu4 = 7;
+    var nu5 = 9;
+    var nus = nu1 + nu2 + nu3 + nu4 + nu5;
+    console.log(nus);
+    console.log(value);
+    console.log(numberssums);
+})
+
 
 // Objects : Objects are the collection of key-value pairs which are stored in a single variable.  
 
@@ -526,6 +539,8 @@ numberssue.forEach(function(value){
 // bohot saare logo ka data ==> Array
 // Aek individual ka data ==> Object
 // Indication of array = [], indication of object = {}
+
+// variable objectname = {}
 
 var obj = {
     name: "Om",
@@ -538,8 +553,12 @@ var obj2 = new Object();
 var battery = {
     companyname: "Nikon",
     price : 13000,
-
+    use : "Camera",
+    isWorking : true
 };
+
+console.log(battery);
+console.log(obj);
 
 // how to use it ?
 // when and why ?
@@ -547,7 +566,9 @@ var battery = {
 
 // Synchronous and Asynchronous Js :
 // Synchronous code mein code humesha line by line chalta hai
-// Asynchronous code line by line nahi chalta hai, sara asynch code ek saath s
+// Asynchronous code line by line nahi chalta hai, sara asynch code ek saath start kar diya jaata hai and jou pehle complete hojaye uska answer dae diya jaata hai.
+
+// Indepth of Asynchronous and Synchronous :
 
 
 
