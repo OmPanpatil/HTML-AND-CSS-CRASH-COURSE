@@ -468,7 +468,21 @@ var a = undefined;
 var x = null;
 
 // Scope : Scope is the area in which the variable is accessible.
+// scope refers to the accessibility of variables, objects, and functions in different parts of the code during runtime. It determines where a variable or function can be accessed or referenced.
+
 // Global Scope : The variable which is declared outside the function is called as the global variable and is accessible throughout the program.
+// A variable declared outside any function or block belongs to the global scope and is accessible from anywhere in the code.
+
+var globalvar = "i am a globalvar";
+function globall(){
+    console.log(globalvar);
+    var isavegloball = globall();
+    console.log(isavegloball);
+}
+globall();
+console.log(globalvar);
+// console.log(isavegloball);
+
 // Local Scope : The variable which is declared inside the function is called as the local variable and is accessible only inside the function.
 // Block Scope : The variable which is declared inside the block is called as the block variable and is accessible only inside the block.
 // Lexical Scope : The variable which is declared inside the function is called as the lexical variable and is accessible only inside the function.
@@ -569,6 +583,21 @@ console.log(obj);
 // Asynchronous code line by line nahi chalta hai, sara asynch code ek saath start kar diya jaata hai and jou pehle complete hojaye uska answer dae diya jaata hai.
 
 // Indepth of Asynchronous and Synchronous :
+
+// This call apply bind :
+// this is a keyword. this keyword js mein one of the most suspenseful keyword hai
+// Keyword ka matlab hota hai essa word jiska koi matlab ho programming language mein.
+// this ki value baar baar badal sakti hai alag alag conditions mein, toh saari condition ko seekh jao toh "this" keyword ko samajh jaoge.
+
+// global, function, method, fnc inside method (es5), fnc inside method(es6), constructor fnc mein this ki value, event listener mein this ki value 
+
+// global --> window
+// function --> window
+// method --> object
+// function inside method(es5) --> window
+// function inside method(es6) --> object
+// constructor function mein "this" ki value --> new blank object
+// event listener mein "this" ki value --> that element jispar event listening laga ho 
 
 
 

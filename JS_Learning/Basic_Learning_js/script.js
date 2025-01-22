@@ -20,6 +20,14 @@
 // Miscellaneous : Switch case, Ternary
 
 
+// Understanding this call apply bind 
+// Prototypal inheritance
+// closures
+// event delegation
+// Higher-order functions
+// Error Handling (try... catch blocks)
+// custom events
+
 //Interview prep : I
 // This call apply bind 
 // loop with array
