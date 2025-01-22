@@ -497,7 +497,7 @@ if (true) {
     console.log(blockScopedVar); // Accessible inside the block
 }
   
-console.log(blockScopedVar); // Error: blockScopedVar is not defined
+// console.log(blockScopedVar); // Error: blockScopedVar is not defined
   
 
 
@@ -607,14 +607,80 @@ console.log(obj);
 
 // global, function, method, fnc inside method (es5), fnc inside method(es6), constructor fnc mein this ki value, event listener mein this ki value 
 
-// global --> window
-// function --> window
-// method --> object
-// function inside method(es5) --> window
-// function inside method(es6) --> object
-// constructor function mein "this" ki value --> new blank object
-// event listener mein "this" ki value --> that element jispar event listening laga ho 
+// global --> window value
+console.log(this);
+console.log("this");
 
+// function --> window value
+function fnc(){
+    console.log(this);
+}
+fnc();
+
+// method --> object value
+// object ke andar function method hota hai.
+var obj ={
+    name:function(){
+        console.log(this);
+        console.log("this is method");
+    },
+    age : 22,
+    Mail: "kuchkuch@kuchkuch.com",
+}
+obj.name(); //toh yaha hume name kae andar jaana hai toh isliye pehle obj aur dot matlab uske andar jaha hai wou name hai. for example : console.log();
+// console.log(obj);
+
+// function inside method(es5) --> window value
+var obj3 = {
+    saymyname:function(){
+        function letmehearyou(){
+            console.log(this);
+            console.log("this is function inside method es5");
+        }
+
+        letmehearyou();
+    }
+}
+
+obj3.saymyname();
+
+// function inside method(es6) --> object value
+// object mein function hota hai method aur obj mein function ke andar arrow function use karre toh wou function inside method es6 hojata hai.
+
+
+var obj4 ={
+    saymyname : function(){
+        const letmehearyoutudutudu = ()=>{
+            console.log(this);
+            console.log("This is function inside method es6");
+        }
+        letmehearyoutudutudu();
+    }
+}
+obj4.saymyname();
+
+// constructor function mein "this" ki value --> new blank object value
+
+// function add(){
+    // console.log(this);
+// }
+// add();
+// const answer = new add(); //always remember to write new ahead of the function name while declaring the variable 
+// console.log(answer);
+
+function adding(){
+    console.log(this);
+}
+const answer = new adding();
+console.log(answer);
+
+// event listener mein "this" ki value --> that element jispar event listening laga ho
+
+document.querySelector("button")
+.addEventListener("click",function(){
+    console.log(this);
+    // console.log("This is event listener");
+})
 
 
 
