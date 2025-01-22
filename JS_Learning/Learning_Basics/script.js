@@ -476,15 +476,31 @@ var x = null;
 var globalvar = "i am a globalvar";
 function globall(){
     console.log(globalvar);
-    var isavegloball = globall();
-    console.log(isavegloball);
+    // var isavegloball = globall();
+    // console.log(isavegloball);
 }
 globall();
 console.log(globalvar);
 // console.log(isavegloball);
 
 // Local Scope : The variable which is declared inside the function is called as the local variable and is accessible only inside the function.
+// Variables declared inside a function are local to that function and are not accessible from outside the function.
+function localscope(){
+    var localvar = "I am a local variable";
+    console.log(localvar);
+}
+
 // Block Scope : The variable which is declared inside the block is called as the block variable and is accessible only inside the block.
+// Variables declared with let and const are only accessible within the block where they are defined.
+if (true) {
+    let blockScopedVar = "I am block-scoped";
+    console.log(blockScopedVar); // Accessible inside the block
+}
+  
+console.log(blockScopedVar); // Error: blockScopedVar is not defined
+  
+
+
 // Lexical Scope : The variable which is declared inside the function is called as the lexical variable and is accessible only inside the function.
 
 // Arrays :
