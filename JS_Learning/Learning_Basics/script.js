@@ -679,8 +679,61 @@ console.log(answer);
 document.querySelector("button")
 .addEventListener("click",function(){
     console.log(this);
-    // console.log("This is event listener");
+    console.log("This is event listener");
 })
+
+// document.querySelector("button")
+// .addEventListener("click",function(){
+//     console.log(this);
+//     console.log("This is event listener");
+// })
+
+
+// Javascript: Call, apply, bind
+// Ye teen tarekae hai function ko call karne ke kisi object ko this maan kar
+
+function callkar(){
+    console.log(this);
+}
+
+// value window hi hogi right kyuki wou kisi scope mae nahi hai yani ki kisi braces ke andar.
+// Toh hum aek object call kesse karta hai ki hum aek object banaeyege aur jabh hum function ko call karenge jaha hume function ko call karwana hai object ko tabh hum .call karenge aur () ke andar hum wou function ko add karenge i.e. object waale ko
+
+var obj5 = {
+    name: "Nissan GTR Skyline 36",
+    model : "sports"
+};
+
+function callkarekya(){
+    console.log(this);
+}
+
+callkarekya.call(obj5);
+
+
+// Apply :
+
+// Isme hume parameters ki value array format mae denni hai aur this ke saath wou param hume likhna hai show karne ke liye aur yaha call kae badlae apply aajata hai.
+
+function aabayegamajja(a,b,C){
+    console.log(this,a,b,C);
+}
+
+aabayegamajja(1,2,3);
+
+// Example now by using apply :
+
+const obj6 ={
+    name: "Baburao",
+    work: "Fisheries",
+};
+
+function aabayeganamajjabhidu(m,n,o){
+    console.log(this,m,n,o);
+}
+aabayeganamajjabhidu.apply(obj6,[10,5,7]);
+
+
 
 
 
