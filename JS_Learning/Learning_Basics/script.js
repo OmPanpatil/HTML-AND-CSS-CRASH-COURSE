@@ -733,6 +733,123 @@ function aabayeganamajjabhidu(m,n,o){
 }
 aabayeganamajjabhidu.apply(obj6,[10,5,7]);
 
+// Bind : bind is like call we doesn;t get the answer quickly but we get a function in return and jisko hum baadmae call kar sakhte hai.
+
+const aquaobj ={ Molecularformula:"H2O"}
+
+function paanidaal(){
+    console.log(this);
+}
+
+const paanipaani = paanidaal.bind(aquaobj);
+// console.log(paanipaani);
+
+paanipaani();
+
+// Javascript Prototypal Inheritance
+
+// hum objects creates karte hai and kissi aek parent constructor function ke prototype mein kuchh add kardette hai aur jab bhi add hota hai toh wou parent sae bannae wallae sabhi children instances ko wou properties jou parent ko prototype mein diigayi thi wou milti hai saugaat mein.
+
+// function iamhuman(){
+//     this.God = "Because of Dr. Babasaheb Ambedkar";
+//     this.republicday = 2601;
+// }
+
+// const human1 = new iamhuman(God,republicday);
+
+// function makehuman(name,age){
+//     this.name = "Om";
+//     this.age = 22;
+// }
+
+// const human1 = new makehuman();
+
+
+function makehuman(name, age){
+    this.name = name;
+    this.age = age;
+}
+
+const human1 = new makehuman("Om", 22);
+console.log(human1);
+
+
+
+function makehuman(namee, agee){
+    this.namee = "Om";
+    this.agee = 22;
+}
+
+const human2 = new makehuman();
+console.log(human2);
+
+// Aisa koi bhi function jismae aap this ka upyoag karre ho aur uss function ko call karte waqt aap new ka upyoag karre toh new ka matlb waha par ek blank object hojaata hai
+
+// ek function jou ki this ka upyog kar raha ho and new ke dwara naaye naaye objects bana kar detta ho aise function ko constructor function kehte hai  
+
+function makehumans(nameee, agee){
+    this.nameee = nameee;
+    this.agee = agee;
+}
+
+const human3 = new makehumans("Om", 22);
+const human4 = new makehumans("Omisha", 22);
+
+makehumans.prototype.Kesseho = 24;
+
+console.log(human3);
+console.log(human4);
+// console.log(Kesseho);
+
+makehumans.prototype.sayit = function yzx(){
+    console.log(this.nameee);
+    console.log("Wassup ?");
+}
+
+
+// Javascript Closures :
+
+// Essa koi bhi function jo ek aur function ko return karde usse closure kehte hai
+// ek function jo return karre doosra function, aur use karre parent function ka koi variable usse hum closure kehte hai
+
+function counter(){
+    var count = 0;
+    // count <= 10;
+    return function(){
+        // count < 10;
+        count++;
+        console.log(count);
+    }
+}
+
+var gintti = counter();
+gintti();
+
+
+function dabdi(){
+    var babdi = "Shreemanlegend";
+    return function(){
+        console.log(babdi);
+    }
+}
+
+const dumdum = dabdi();
+console.log(dumdum);
+
+function timer(){
+    var value = 13;
+    return setTimeout(function(){
+        console.log(value);
+    }, 2000) //will run after the 5 seconds
+}
+
+var ginna = timer();
+console.log(ginna);
+
+// Javascript Event Delegation :
+
+
+
 
 
 
