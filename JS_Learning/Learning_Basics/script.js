@@ -795,12 +795,14 @@ function makehumans(nameee, agee){
 const human3 = new makehumans("Om", 22);
 const human4 = new makehumans("Omisha", 22);
 
+// yaha hum value dikha sakhte hai output mae
 makehumans.prototype.Kesseho = 24;
 
 console.log(human3);
 console.log(human4);
 // console.log(Kesseho);
 
+// yaha sae hum aek function return karsakhte hai output mae
 makehumans.prototype.sayit = function yzx(){
     console.log(this.nameee);
     console.log("Wassup ?");
@@ -847,6 +849,11 @@ var ginna = timer();
 console.log(ginna);
 
 // Javascript Event Delegation :
+// Jabh aa aek event listener sae kai saare different elements kae events ko handle kar sakhe
+// Event listener ko parent par lagao aur unko id, class ya fir tag ke basis par differentiate karke different task karao
+
+
+
 
 
 
