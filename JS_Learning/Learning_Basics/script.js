@@ -849,10 +849,57 @@ var ginna = timer();
 console.log(ginna);
 
 // Javascript Event Delegation :
-// Jabh aa aek event listener sae kai saare different elements kae events ko handle kar sakhe
+// Jabh aap aek event listener sae kai saare different elements kae events ko handle kar sakhe
 // Event listener ko parent par lagao aur unko id, class ya fir tag ke basis par differentiate karke different task karao
+// agar hum search karre event ko parent kae child par aur hume na mille toh wou parent mae event listener dhundta hai
+
+// var parent = document.querySelector("#parent");
+
+// parent.addEventListener("click",function(){
+//     console.log("Works");
+// })
+
+// to find where the event has reached 
+
+var parent = document.querySelector("#parent");
+
+parent.addEventListener("click",function(details){
+    console.log(details.target);
+})
+
+var parent = document.querySelector("#parent");
+
+parent.addEventListener("click",function(Event){
+    if(Event.target.id = "Play"){
+        console.log("Play the music");
+    }
+    else if(Event.target.id = "Pause"){
+        console.log("Pause the music");
+    }
+})
 
 
+// Javascript Higher Order Functions :
+// aisa koi function jou ki ek function ko parameter mae accept karle  and/or ek function ko return karde.
+// agar hum aek function mein aur ek function bhejenge toh bahar wallah function higher order function hogga.
+
+var arr = [1,2,3,4,5,6];
+
+arr.forEach(function arraykarega(){
+    console.log("Higher order bahar kae function");
+});
+// displaying array elements
+console.log(arr);
+
+function hof(){
+    console.log("This is Higher Order Functions");
+}
+
+hof(function kyakarrahai(){
+    console.log("Haa bhai");
+});
+
+// Javascript error handling like a pro  (try-catch) :
 
 
 

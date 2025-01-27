@@ -13,3 +13,32 @@ button{
     height: 8vh;
     width: 8vw;
 }
+
+#parent{
+    height: 25vh;
+    width: 30vw;
+    background-color: lightcoral;
+    padding: 5vw;
+}
+
+#Play{
+    height: 7vh;
+    width: 9vw;
+    /* background-color: red; */
+    border-radius: 5vw;
+    /* border-color: none; */
+    border: none;
+}
+
+#Pause{
+    height: 7vh;
+    width: 9vw;
+    /* background-color: red; */
+    border-radius: 5vw;
+    /* border-color: none; */
+    border: none;
+}
+
+/* #Play{
+
+} */
