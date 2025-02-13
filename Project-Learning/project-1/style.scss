@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+// .parent{
+//     width: 60vw;
+//     height: 30vh;
+//     background-color: red;
+// }
+
+// .child{
+//     width: 30vw;
+//     height: 15vh;
+//     background-color: blue;
+// }
+
+// @media (min-width:375px) {
+//     .parent{
+//         width: 50vw;
+//         height: 20vh;
+//         background-color: black;
+//     }
+
+//     .child{
+//         width: 20vw;
+//         height: 10vh;
+//         background-color: yellowgreen;
+//     }
+// }
+
+// @media (min-width:768px) {
+//     .parent{
+//         width: 50vw;
+//         height: 20vh;
+//         background:linear-gradient(to right bottom, orange,white,yellow);
+//     }
+
+//     .child{
+//         width: 20vw;
+//         height: 10vh;
+//         // background-color: yellowgreen;
+//         background-color: rgba(0, 0, 0, 0.5);
+//     }
+// }
+
+// .parent{
+//     width: 1000px;
+//     height: 1000px;
+//     background-color: wheat;
+//     display: grid;
+//     grid-template-columns: 20% 20% 20% 20% 20%;
+//     padding: 1vw;
+//     flex-wrap: wrap;
+// }
+
+// .child{
+//     height: 300px;
+//     background-color: red;
+//     border: 2px solid black;
+//     flex-shrink: 0;
+// }
+
+// Aspect - ratio : jitni width utni height - 1/1 (w/h), o.5, auto, 9/16, 16/9
+
+.images{
+    width: 100%;
+    padding: 0.5rem;
+    display: grid;
+    gap: 0.25rem;
+    grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f"
+        "g"
+        "h"
+        "i"
+        "j";
+
+    ;
+
+
+    img{
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    .image-a{
+        grid-area: a;
+    }
+
+    .image-b{
+        grid-area: b;
+    }
+
+    .image-c{
+        grid-area: c;
+    }
+
+    .image-d{
+        grid-area: d;
+    }
+
+    .image-e{
+        grid-area: e;
+    }
+
+    .image-f{
+        grid-area: f;
+    }
+
+    .image-g{
+        grid-area: g;
+    }
+
+    .image-h{
+        grid-area: h;
+    }
+
+    .image-i{
+        grid-area: i;
+    }
+
+    .image-j{
+        grid-area: j;
+    }
+}
+
+
+
+@media (min-width:768px) {
+    
+    .images{
+        width: 100%;
+        padding: 0.5rem;
+        display: grid;
+        gap: 0.25rem;
+        background:linear-gradient(to right bottom, white, rgb(216, 131, 131), white, orange);
+        grid-template-areas: 
+           "a a b c"
+           "a a d e"
+           "f g j j"
+           "h i j j"
+    
+        ;
+    }
+    
+    img{
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 16/9;
+    }
+    
+
+}
