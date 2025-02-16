@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    // font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Helvetica;
 }
 
 html,body{
@@ -134,26 +135,26 @@ main{
     
 // }
 
-nav{
-    width: fit-content;
-    background-color: red;
-    padding: 1rem;
-    // padding: 20px;
-    // display: flex;
+// nav{
+//     width: fit-content;
+//     background-color: red;
+//     padding: 1rem;
+//     // padding: 20px;
+//     // display: flex;
 
-    .navbar{
-        width: fit-content;
-        background-color: blue;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 1rem;
-        padding: 0.5rem;
+//     .navbar{
+//         width: fit-content;
+//         background-color: blue;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         gap: 1rem;
+//         padding: 0.5rem;
 
-        h1{
-            font-size: 1.3rem;
-            font-weight: 400;
-        }
+//         h1{
+//             font-size: 1.3rem;
+//             font-weight: 400;
+//         }
 
         // .center-content{
         //     width: fit-content;
@@ -170,6 +171,97 @@ nav{
         //         font-size: 0.9rem;
         //     }
         // }
+    // }
+// }
+
+
+
+nav{
+    width: 100%;
+    // width: 50%;
+    height: 5rem;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    // padding: 20px;
+    // padding: 1.7rem 0;
+    // padding: 1.8rem 0;
+
+    position: fixed;
+    top: 0;
+    // margin-top: 0.2vw;
+    // background: transparent;
+    // background-color: #0e0e0e;
+    z-index: 1000;
+
+
+
+    .navbar{
+        width: 90%;
+        height: 100%;
+        // background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+        padding: 0.8rem;
+        border: 1px solid rgba(245, 222, 179, 0.282);
+        background: transparent;
+        background-color: #0e0e0e;
+
+
+        h3{
+            // font-size: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 200;
+            opacity: 0.8;
+        }
+
+        .center{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3vw;
+            display: none;
+
+
+            a{
+                text-decoration: none;
+                color: wheat;
+
+                h4{
+                    font-size: 1rem;
+                    font-weight: 100;
+                    opacity: 0.8;
+                }
+
+            }
+        }
+
+        .center a h4:hover{
+            text-decoration: underline;
+
+        }
+
+        .right{
+
+            button{
+                padding: 0.7rem 1rem;
+                font-size: 0.9rem;
+                font-weight: 300;
+                background-color: wheat;
+                border: none;
+                border-radius: 3%;
+            }
+
+            // .right:hover{
+            //     background: fade-out($color: yellow, $amount: 0);
+            // }
+        }
+
+
     }
 }
 
@@ -213,6 +305,34 @@ nav{
         }
     }
 }
+
+
+.mid-btn{
+    width: 100%;
+    height: 4rem;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+
+    i{
+        font-size: 1.5rem;
+        font-weight: 100;
+        border: 1px solid rgba(245, 222, 179, 0.689);
+        border-radius: 50%;
+        padding: 0.2rem 0.3rem;
+        // background-color:#0e0e0e;
+        // border: none;
+    }
+
+    p{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+}
+
+
 
 .view-2{
     width: 100%;
@@ -335,6 +455,98 @@ nav{
     html{
         font-size: clamp(16px, 1vw, 20px);
     }
+
+
+    nav{
+        width: 100%;
+        // width: 50%;
+        height: 8rem;
+        // background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // padding: 20px;
+        padding: 1.7rem 0;
+        // padding: 1.8rem 0;
+        position: fixed;
+        top: 0;
+        // margin-top: 0.2vw;
+        // background: transparent;
+        // background-color: #0e0e0e;
+        z-index: 1000;
+    
+    
+    
+        .navbar{
+            width: 45%;
+            height: 100%;
+            // background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+            padding: 1.2rem;
+            border: 1px solid rgba(245, 222, 179, 0.282);
+            background: transparent;
+            background-color: #0e0e0e;
+    
+    
+            h3{
+                font-size: 1.5rem;
+                font-weight: 200;
+                opacity: 0.8;
+            }
+    
+            .center{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 3vw;
+                // display: inline-block;
+    
+    
+                a{
+                    text-decoration: none;
+                    color: wheat;
+    
+                    h4{
+                        font-size: 1rem;
+                        font-weight: 100;
+                        opacity: 0.8;
+                    }
+    
+                }
+            }
+    
+            .center a h4:hover{
+                text-decoration: underline;
+    
+            }
+    
+            .right{
+    
+                button{
+                    padding: 0.8rem 1.1rem;
+                    font-size: 0.9rem;
+                    font-weight: 300;
+                    background-color: wheat;
+                    border: none;
+                    border-radius: 3%;
+                }
+    
+                .right:hover{
+                    background: fade-out($color: yellow, $amount: 0);
+                }
+            }
+    
+    
+        }
+
+        .thrsymbol{
+            display: none;
+        }
+    }
+    
 
     .view-1{
 
