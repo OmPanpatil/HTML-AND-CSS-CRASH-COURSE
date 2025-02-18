@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #f8f7f4;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+
+    .page-1{
+        width: 100%;
+        height: 100%;
+        // background-color: rgb(223, 223, 126);
+
+        nav{
+            height: 5rem;
+            width: 100%;
+            // background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 3rem;
+
+            .nav-part1{
+                width: 30%;
+                // background-color: yellow;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                // gap: 1rem;
+
+                h4{
+                    font-size: 1.05rem;
+                    font-weight: 200;
+                }
+            }
+
+            img{
+                // width: 20%;
+                // height: 20%;
+                height: 100%;
+                // width: fit-content;
+                width: 10%;
+                object-fit: cover;
+                // background-color: pink;
+                
+            }
+
+            .nav-part2{
+                width: 30%;
+                // background-color: yellow;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                // gap: ;
+                
+                button{
+                    padding: 0.8rem 1.1rem;
+                    border-radius: 50px;
+                    border: none;
+                    font-size: 1rem;
+                    font-weight: 550;
+                    background-color: black;
+                    color: white;
+                    // padding: 0.5rem 0.5rem;
+                    margin:0.5rem 0.5rem ;
+                }
+
+                // .nav-part2 button:nth-child(1){
+                //     background-color: red;
+                // }
+
+                .log-in{
+                    background-color: transparent;
+                    color: black;
+                }
+            }
+        }
+
+        .content{
+            height: calc(100% - 5rem);
+            width: 100%;
+            // background-color: crimson;
+            // background: linear-gradient(to right bottom, orange, white, orangered,yellow,white);
+            padding-top: 6rem;
+            // transition: all;
+
+            h3{
+                // background-color: #e0d9e5;
+                // animation: colour 60s linear 1s infinite cubic-bezier(0.19, 1, 0.22, 1) fill-mode;
+                // transition: all;
+                background-color: rgba(255, 192, 203, 0.832);
+                padding: 1rem 1rem;
+                width: fit-content;
+                border-radius: 50px;
+                position: relative;
+                left: 50%;
+                transform: translate(-50%);
+                font-size: 1.1rem;
+                font-family: "Source Serif 4";
+                font-weight: 100;
+            }
+
+            h1{
+                font-size: 4.5rem;
+                text-align: center;
+                // padding: 3rem 0 ;
+                margin-top: 3rem;
+                // background-color: red;
+                font-family: "Source Serif 4";
+                font-weight: 200;
+                line-height: 4.5rem;
+            }
+
+            h4{
+                font-size: 1.3rem;
+                text-align: center;
+                font-weight: 500;
+                margin: 2rem 0;
+                // background-color: red;
+            }
+
+                            
+            button{
+                padding: 0.8rem 1.1rem;
+                border-radius: 50px;
+                border: none;
+                font-size: 1rem;
+                font-weight: 550;
+                background-color: black;
+                color: white;
+                // padding: 0.5rem 0.5rem;
+                margin:0.5rem 0.5rem ;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        // @keyframes colour{
+        //     0%{
+        //         transform: translate( background-color- yellow, 2s);
+        //     }
+
+        //     10%{
+        //         transform: translate(orange, 2s);
+        //     }
+
+        //     20%{
+        //         transform: translate(purple, 2s);
+        //     }
+
+        //     30%{
+        //         transform: translate(crimson, 2s);
+        //     }
+        // }
+    }
+}

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica";
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f7f4;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+main .page-1 {
+  width: 100%;
+  height: 100%;
+}
+main .page-1 nav {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+main .page-1 nav .nav-part1 {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .page-1 nav .nav-part1 h4 {
+  font-size: 1.05rem;
+  font-weight: 200;
+}
+main .page-1 nav img {
+  height: 100%;
+  width: 10%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .page-1 nav .nav-part2 {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+main .page-1 nav .nav-part2 button {
+  padding: 0.8rem 1.1rem;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 550;
+  background-color: black;
+  color: white;
+  margin: 0.5rem 0.5rem;
+}
+main .page-1 nav .nav-part2 .log-in {
+  background-color: transparent;
+  color: black;
+}
+main .page-1 .content {
+  height: calc(100% - 5rem);
+  width: 100%;
+  padding-top: 6rem;
+}
+main .page-1 .content h3 {
+  background-color: rgba(255, 192, 203, 0.832);
+  padding: 1rem 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 1.1rem;
+  font-family: "Source Serif 4";
+  font-weight: 100;
+}
+main .page-1 .content h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  font-family: "Source Serif 4";
+  font-weight: 200;
+  line-height: 4.5rem;
+}
+main .page-1 .content h4 {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+main .page-1 .content button {
+  padding: 0.8rem 1.1rem;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 550;
+  background-color: black;
+  color: white;
+  margin: 0.5rem 0.5rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}/*# sourceMappingURL=style.css.map */
