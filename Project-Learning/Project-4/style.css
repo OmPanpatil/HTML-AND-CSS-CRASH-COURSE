@@ -100,11 +100,40 @@ main .page-1 .content button {
   border-radius: 50px;
   border: none;
   font-size: 1rem;
-  font-weight: 550;
+  font-weight: 500;
   background-color: black;
   color: white;
   margin: 0.5rem 0.5rem;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+}
+main .page-1 .content .bottom {
+  height: 20rem;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  animation: movingthing 10s linear infinite both both;
+}
+main .page-1 .content .bottom .elem {
+  height: 100%;
+  width: 15rem;
+  background-color: royalblue;
+  border: 2px solid black;
+  flex-shrink: 0;
+  border-radius: 3rem;
+  border: none;
+  margin-right: 0.5rem;
+}
+@keyframes movingthing {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }/*# sourceMappingURL=style.css.map */
